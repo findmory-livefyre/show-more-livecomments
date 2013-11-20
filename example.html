@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+	<!--load Enterprise Profiles script -->
+	<!--get this from LFCP tab in Powertools-->
+	<script src="http://client-solutions.ep.livefyre.com/media/Y2xpZW50LXNvbHV0aW9ucy5lcC5saXZlZnlyZS5jb20=/javascripts/customprofiles.js"></script>
+</head>
+
+<body>
+	<script src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+
+	<!--this needs to match the 'el' below -->
+	<div id="lf_comments"></div>
+
+	<script>
+		//setup Enterprise profiles authDelegate
+		//get the engage app name from LFCP tab in Powertools
+		var authDelegate = new fyre.conv.SPAuthDelegate({engage: {app: "client-solutions.auth.fyre.co"}});
+
+		//initialize the comments app
+
+		//get this embed code from collection in Admin
+		(function() {
+		    fyre.conv.load({
+		        network: 'client-solutions.fyre.co',
+		        authDelegate: authDelegate  //<---be sure to add this to the embed code
+		    }, [{
+		        app: 'main',
+		        siteId: '347467',
+		        articleId: 'cello-1384178972830',
+		        el: 'lf_comments',
+		        checksum: 'd48cae6377d6d381596225689e2f8a6f',
+		        collectionMeta: 'eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJ1cmwiOiAiaHR0cDovL2RlbW9zLmxpdmVmeXJlLmNvbS9jbGllbnQtc29sdXRpb25zL2NlbGxvbXVsdGljYW5hbC9tZWRpYXdhbGwuaHRtbCIsICJ0YWdzIjogW10sICJhcnRpY2xlSWQiOiAiY2VsbG8tMTM4NDE3ODk3MjgzMCIsICJ0aXRsZSI6ICJDZWxsbyBNdWx0aWNhbmFsIE1lZGlhV2FsbCJ9'
+		    }], function (widget) {
+		        // Initialize or Auth
+		    });
+		}());
+	</script>
+	<style type="text/css">
+
+	#lf_comments {
+		width: 650px;
+	}
+
+	.fyre-stream-content {
+		height: 600px;
+		/*width: 600px;*/
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	div.fyre-stream-content {
+		position: relative;
+	}
+
+	</style>
+</body>

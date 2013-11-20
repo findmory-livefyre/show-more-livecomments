@@ -1,0 +1,5594 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body {
+    line-height: 1;
+}
+
+
+body {
+    background: #dfe5ea;
+    min-width: 100%;
+}
+
+body,p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.page {
+    width: 100%;
+    position: relative;
+}
+
+.fyre .fyre-comment-user, .fyre .fyre-comment-source-0 .fyre-comment-user {
+	/*display: block;*/
+	position: relative;
+}
+
+.fyre {
+    z-index: 0;
+}
+
+html #toolbar {
+    z-index: 9999;
+}
+
+body {
+    min-width: 320px;
+}
+
+
+body .fyre .fyre-box-wrapper a.fyre-user-profile-link {
+    display: block;
+}
+
+body div.fyre div.fyre-box-wrapper img.fyre-user-avatar-25 {
+    float: left;
+}
+
+body div.fyre div.fyre-box-wrapper span.fyre-user-drop {
+    float: left;
+}
+
+body.the-conversation div.fyre div.fyre-stream-content {
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body.the-conversation .fyre-editor-container {
+    min-width: 100%;
+}
+
+body.the-conversation div.fyre div.fyre-stream-content {
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body.the-conversation .fyre-editor-container {
+    min-width: 100%;
+}
+
+.fyre-post-button-new .goog-inline-block.fyre-button-right-inner-box {
+    padding: 0 5px!important;
+}
+
+div.fyre-editor-container {
+    min-width: 100%;
+}
+
+div.fyre-editor-editable {
+    width: 100%;
+}
+
+.fyre-editor-toolbar {
+    width: 100%;
+}
+
+#fox-video-sandbox {
+    display: none;
+}
+
+.poll-widget {
+    margin-bottom: 30px;
+}
+
+.poll-widget :before,.poll-widget :after {
+    content: " ";
+    display: table;
+}
+
+.poll-widget :after {
+    clear: both;
+}
+
+.poll-widget .poll-question p span {
+    display: none;
+}
+
+.poll-widget .poll-options .poll-option {
+    color: #db2c2c;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.poll-widget .poll-buttons .btn,.poll-widget .poll-buttons .poll-links a {
+    float: left;
+}
+
+.poll-widget .poll-links a {
+    display: block;
+}
+
+.poll-widget .poll-buttons .poll-links {
+    width: 290px;
+}
+
+.poll-widget .poll-buttons .poll-links a {
+    display: block;
+    background: url('../img/the-five/sprite-polls.png') no-repeat 0 0;
+    color: #183a52;
+    text-decoration: none;
+    font: bold 11px/32px Helvetica,Arial,sans-serif;
+    padding-left: 24px;
+    margin-left: 5px;
+}
+
+.poll-widget .poll-buttons .poll-links a:hover {
+    text-decoration: underline;
+}
+
+.poll-widget .poll-buttons .poll-links a:visited {
+    color: #183a52;
+}
+
+.poll-widget .poll-buttons .poll-links a.all {
+    background-position: 0 -32px;
+    float: right;
+}
+
+.poll-widget .poll-buttons .poll-links a.discuss {
+    background-position: 0 0;
+}
+
+.poll-widget .poll-links {
+    width: 210px;
+}
+
+.poll-widget .poll-links a {
+    display: block!important;
+    color: #183a52!important;
+    background: url('../img/the-five/sprite-polls.png') no-repeat 0 0;
+    color: #183a52;
+    text-decoration: none!important;
+    font: bold 11px/32px Helvetica,Arial,sans-serif;
+    padding-left: 24px;
+    margin-left: 5px;
+}
+
+.poll-widget .poll-links a:hover {
+    text-decoration: underline!important;
+}
+
+.poll-widget .poll-links a:visited {
+    color: #183a52;
+}
+
+.poll-widget .poll-links a.all {
+    background-position: 0 -32px;
+    float: right;
+}
+
+.poll-widget .poll-links a.discuss {
+    background-position: 0 0;
+}
+
+.poll-widget .poll-buttons .btn {
+    border: 0;
+    color: #fff;
+    padding: 5px 35px 5px 15px;
+    text-decoration: none;
+    background: #08153c url("../img/the-five/sprite-article-icons.png") no-repeat right -170px;
+    font: 200 16px/20px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.poll-widget .poll-buttons .btn:hover {
+    cursor: pointer;
+}
+
+.landing .header {
+    height: 375px;
+}
+
+.landing .header nav {
+    clear: both;
+}
+
+.landing .stage {
+    margin-top: -64px;
+}
+
+.landing .stage .studio.the-five-group {
+    background: url("../img/the-five/bg-main-full-mobile.png") no-repeat center top;
+    width: 100%;
+    height: 375px;
+    z-index: -10;
+}
+
+.landing .five-o-meter {
+    clear: both;
+    padding: 10px 0;
+    background: #dfe5ea;
+    position: relative;
+    z-index: 5;
+}
+
+.landing .five-o-meter {
+    *zoom: 1;
+}
+
+.landing .five-o-meter:before,.landing .five-o-meter:after {
+    content: "";
+    display: table;
+}
+
+.landing .five-o-meter:after {
+    clear: both;
+}
+
+.landing .five-o-meter .wrap {
+    position: relative;
+}
+
+.landing .five-o-meter .wrap {
+    *zoom: 1;
+}
+
+.landing .five-o-meter .wrap:before,.landing .five-o-meter .wrap:after {
+    content: "";
+    display: table;
+}
+
+.landing .five-o-meter .wrap:after {
+    clear: both;
+}
+
+.landing .five-o-meter .g-41 {
+    margin: 0 12px;
+}
+
+.landing .five-o-meter .g-28 {
+    max-width: 100%;
+    margin: 0;
+    float: none;
+}
+
+.landing .five-o-meter .g-28 {
+    *zoom: 1;
+}
+
+.landing .five-o-meter .g-28:before,.landing .five-o-meter .g-28:after {
+    content: "";
+    display: table;
+}
+
+.landing .five-o-meter .g-28:after {
+    clear: both;
+}
+
+.landing .five-o-meter .g-13 {
+    clear: both;
+    padding: 0;
+    margin-top: 48px;
+}
+
+.landing .five-o-meter header {
+    width: auto;
+}
+
+.landing .five-o-meter header h2 {
+    font: normal 27px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    color: #08153c;
+    margin-bottom: 8px;
+}
+
+.landing .five-o-meter header h2 .five-oh {
+    background: url("../img/the-five/logo-five-oh.png") no-repeat 0 -67px;
+    display: inline-block;
+    width: 56px;
+    height: 60px;
+    text-indent: -9999em;
+}
+
+.landing .five-o-meter p {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 14px;
+    max-width: 600px;
+}
+
+.landing .five-o-meter .topics li {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.landing .five-o-meter .topics li .media {
+    display: none;
+}
+
+.landing .five-o-meter .topics li .title {
+    font: 300 18px/27px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 3px;
+}
+
+.landing .five-o-meter .topics li .title a,.landing .five-o-meter .topics li .title a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.landing .five-o-meter .topics li .title a:hover,.landing .five-o-meter .topics li .title a:active {
+    text-decoration: underline;
+}
+
+.landing .five-o-meter .topics li .comment-count {
+    font-size: 11px;
+    text-align: left;
+}
+
+.landing .clip-blog {
+    background: #08153c;
+    padding: 30px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.landing .clip-blog {
+    *zoom: 1;
+}
+
+.landing .clip-blog:before,.landing .clip-blog:after {
+    content: "";
+    display: table;
+}
+
+.landing .clip-blog:after {
+    clear: both;
+}
+
+.landing .clip-blog .g-41 {
+    margin: 0 12px;
+}
+
+.landing .clip-blog h2 {
+    margin-bottom: 20px;
+}
+
+.landing .clip-blog h2 a,.landing .clip-blog h2 a:visited,.landing .clip-blog h2 a:hover,.landing .clip-blog h2 a:active {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.landing .clip-blog .button {
+    float: left;
+    clear: left;
+    margin-bottom: 24px;
+}
+
+.landing .clip-blog .the-clips {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.landing .clip-blog .the-clips .section-content .g-13 {
+    margin: 0 0 24px 0;
+}
+
+.landing .clip-blog .the-clips .section-content .media {
+    position: relative;
+}
+
+.landing .clip-blog .the-clips .section-content .media .overlay {
+    background: url("../img/the-five/sprite-overlay-video.png") no-repeat 0 0;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999em;
+}
+
+.landing .clip-blog .the-clips .section-content .media:hover .overlay {
+    background-position: 0 -50px;
+}
+
+.landing .clip-blog .the-clips .section-content .title {
+    color: white;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.landing .clip-blog .the-clips .section-content .title a,.landing .clip-blog .the-clips .section-content .title a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.landing .clip-blog .the-clips .section-content .title a:hover,.landing .clip-blog .the-clips .section-content .title a:active {
+    text-decoration: underline;
+}
+
+.landing .clip-blog .row-1,.landing .clip-blog .row-2,.landing .clip-blog .row-3 {
+    *zoom: 1;
+}
+
+.landing .clip-blog .row-1:before,.landing .clip-blog .row-1:after,.landing .clip-blog .row-2:before,.landing .clip-blog .row-2:after,.landing .clip-blog .row-3:before,.landing .clip-blog .row-3:after {
+    content: "";
+    display: table;
+}
+
+.landing .clip-blog .row-1:after,.landing .clip-blog .row-2:after,.landing .clip-blog .row-3:after {
+    clear: both;
+}
+
+.landing .clip-blog .the-blog {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.landing .clip-blog .parallelogram .linkwrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.landing .clip-blog .parallelogram {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: white;
+    overflow: hidden;
+    width: 300px;
+    height: 174px;
+    margin-bottom: 23px;
+}
+
+.landing .clip-blog .parallelogram {
+    *zoom: 1;
+}
+
+.landing .clip-blog .parallelogram:before,.landing .clip-blog .parallelogram:after {
+    content: "";
+    display: table;
+}
+
+.landing .clip-blog .parallelogram:after {
+    clear: both;
+}
+
+.landing .clip-blog .parallelogram.g-13 {
+    margin: 0 0 12px 0;
+    position: relative;
+}
+
+.landing .clip-blog .parallelogram .header,.landing .clip-blog .parallelogram .content {
+    height: auto;
+}
+
+.landing .clip-blog .parallelogram .header .image,.landing .clip-blog .parallelogram .content .image {
+    margin-left: -20px;
+}
+
+.landing .clip-blog .parallelogram .header .image img,.landing .clip-blog .parallelogram .content .image img {
+    max-width: none;
+}
+
+.landing .clip-blog .parallelogram .header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #dfe5ea;
+    font: normal 14px/40px "Radley",Georgia,"Times New Roman",Times,serif;
+    width: 310px;
+    padding: 0 36px 0 20px;
+    margin-left: -5px;
+}
+
+.landing .clip-blog .parallelogram .header {
+    *zoom: 1;
+}
+
+.landing .clip-blog .parallelogram .header:before,.landing .clip-blog .parallelogram .header:after {
+    content: "";
+    display: table;
+}
+
+.landing .clip-blog .parallelogram .header:after {
+    clear: both;
+}
+
+.landing .clip-blog .parallelogram .header .date {
+    float: left;
+    color: #1e3c85;
+}
+
+.landing .clip-blog .parallelogram .header .icon {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    text-indent: -9999em;
+    background: url("../img/the-five/sprite-blog-icons.png") no-repeat;
+}
+
+.landing .clip-blog .parallelogram .content {
+    width: 228px;
+    margin: 14px auto;
+}
+
+.landing .clip-blog .parallelogram .content .title {
+    color: #08153c;
+    font: bold 14px/14px "Radley",Georgia,"Times New Roman",Times,serif;
+    letter-spacing: -1px;
+    margin-bottom: 6px;
+}
+
+.landing .clip-blog .parallelogram .content p {
+    color: black;
+    font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.landing .clip-blog .parallelogram.blog-link a,.landing .clip-blog .parallelogram.blog-link a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.landing .clip-blog .parallelogram.blog-link a:hover,.landing .clip-blog .parallelogram.blog-link a:active {
+    text-decoration: underline;
+}
+
+.landing .clip-blog .parallelogram.blog-link .icon {
+    background-position: 0 0;
+}
+
+.landing .clip-blog .parallelogram.blog-words .icon {
+    background-position: 0 -30px;
+}
+
+.landing .clip-blog .parallelogram.blog-words p {
+    color: #274ca4;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.landing .clip-blog .parallelogram.blog-article .icon {
+    background-position: 0 -60px;
+}
+
+.landing .clip-blog .parallelogram.blog-video .icon {
+    background-position: 0 -90px;
+}
+
+.landing .clip-blog .parallelogram.blog-video .content {
+    width: auto;
+    margin: 0;
+}
+
+.landing .clip-blog .parallelogram.blog-video .image {
+    position: relative;
+}
+
+.landing .clip-blog .parallelogram.blog-video .image .overlay {
+    background: url("../img/the-five/sprite-overlay-video.png") no-repeat 0 0;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999em;
+}
+
+.landing .clip-blog .parallelogram.blog-video .image:hover .overlay {
+    background-position: 0 -50px;
+}
+
+.landing .clip-blog .parallelogram.blog-gallery .icon {
+    background-position: 0 -120px;
+}
+
+.landing .clip-blog .parallelogram.blog-gallery .content {
+    width: auto;
+    margin: 0;
+}
+
+.landing .clip-blog .parallelogram.blog-tweet .icon {
+    background-position: 0 -150px;
+}
+
+.landing .clip-blog .parallelogram.blog-tweet a,.landing .clip-blog .parallelogram.blog-tweet a:visited {
+    color: #274ca4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.landing .clip-blog .parallelogram.blog-tweet a:hover,.landing .clip-blog .parallelogram.blog-tweet a:active {
+    text-decoration: underline;
+}
+
+.landing .clip-blog .parallelogram.blog-quote .icon {
+    background-position: 0 -180px;
+}
+
+.landing .clip-blog .parallelogram.blog-quote .content {
+    position: relative;
+}
+
+.landing .clip-blog .parallelogram.blog-quote .content p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333;
+}
+
+.landing .clip-blog .parallelogram.blog-quote .content:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -25px;
+    width: 50px;
+    height: 35px;
+    background: url("../img/the-five/sprite-quote-bg.png") no-repeat 0 -35px;
+}
+
+.landing .clip-blog .parallelogram.blog-quote .content:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -25px;
+    width: 50px;
+    height: 35px;
+    background: url("../img/the-five/sprite-quote-bg.png") no-repeat 0 0;
+}
+
+.landing .clip-blog .parallelogram.blog-music .icon {
+    background-position: 0 -210px;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul {
+    width: 252px;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul {
+    *zoom: 1;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul:before,.landing .clip-blog .parallelogram.blog-music .content ul:after {
+    content: "";
+    display: table;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul:after {
+    clear: both;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul li {
+    float: left;
+    width: 33%;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul li .media {
+    margin-bottom: 4px;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul li .title {
+    font: 300 12px/12px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul li .title a,.landing .clip-blog .parallelogram.blog-music .content ul li .title a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul li .title a:hover,.landing .clip-blog .parallelogram.blog-music .content ul li .title a:active {
+    text-decoration: underline;
+}
+
+.landing .clip-blog .parallelogram.blog-music .content ul li .artist {
+    color: #919191;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.landing .clip-blog .parallelogram.blog-poll .icon {
+    background-position: 0 -240px;
+}
+
+.landing .hosts {
+    padding: 24px 0 0 0;
+    position: relative;
+}
+
+.landing .hosts {
+    *zoom: 1;
+}
+
+.landing .hosts:before,.landing .hosts:after {
+    content: "";
+    display: table;
+}
+
+.landing .hosts:after {
+    clear: both;
+}
+
+.landing .hosts .g-41 {
+    margin: 0 12px;
+}
+
+.landing .hosts article {
+    margin-bottom: 0;
+}
+
+.landing .hosts h2 {
+    margin-bottom: 18px;
+}
+
+.landing .hosts h2 a,.landing .hosts h2 a:active,.landing .hosts h2 a:hover,.landing .hosts h2 a:visited {
+    color: #08153c;
+    text-decoration: none;
+}
+
+.landing .hosts .button {
+    float: left;
+    clear: left;
+    margin-bottom: 12px;
+}
+
+.landing .hosts .g-28 {
+    clear: both;
+    font: 300 18px/27px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.landing .hosts ul {
+    clear: both;
+    position: relative;
+    display: block;
+}
+
+.landing .hosts ul {
+    *zoom: 1;
+}
+
+.landing .hosts ul:before,.landing .hosts ul:after {
+    content: "";
+    display: table;
+}
+
+.landing .hosts ul:after {
+    clear: both;
+}
+
+.landing .hosts li {
+    background: #dfe5ea;
+    float: left;
+    width: 130px;
+    display: block;
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 8px;
+}
+
+.landing .hosts li .image {
+    position: relative;
+}
+
+.landing .hosts li .image img {
+    position: relative;
+    top: 0;
+    -moz-transition: all .2s ease-in-out 1s ease-in-out;
+    -o-transition: all .2s ease-in-out 1s ease-in-out;
+    -webkit-transition: all .2s ease-in-out 1s ease-in-out;
+    -ms-transition: all .2s ease-in-out 1s ease-in-out;
+    transition: all .2s ease-in-out 1s ease-in-out;
+}
+
+.landing .hosts li a,.landing .hosts li a:visited {
+    text-decoration: none;
+    color: #274ca4;
+}
+
+.landing .hosts li .name {
+    font: normal 18px/24px "Radley",Georgia,"Times New Roman",Times,serif;
+    padding: 12px 16px;
+    color: #274ca4;
+}
+
+.landing .hosts li .name span {
+    font-size: 24px;
+}
+
+.landing .hosts li .overlay {
+    display: none;
+    background: #8398c7;
+    position: absolute;
+    bottom: 0;
+    left: -12px;
+    padding: 18px 20px 18px 30px;
+    font: normal 24px/24px "Radley",Georgia,"Times New Roman",Times,serif;
+    width: 150px;
+}
+
+.landing .hosts li .overlay {
+    *zoom: 1;
+}
+
+.landing .hosts li .overlay:before,.landing .hosts li .overlay:after {
+    content: "";
+    display: table;
+}
+
+.landing .hosts li .overlay:after {
+    clear: both;
+}
+
+.landing .hosts li .overlay a {
+    display: block;
+}
+
+.landing .hosts li .overlay .social {
+    margin: 5px 0 0 0;
+}
+
+.landing .hosts li .overlay .social:before {
+    background: 0;
+}
+
+.landing .hosts li .overlay .social li {
+    float: left;
+    border: 0;
+    background: url("../img/the-five/sprite-social-small.png") no-repeat;
+    margin-right: 5px;
+    margin: 0 5px 0 0;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999em;
+}
+
+.landing .hosts li .overlay .social li.fb {
+    background-position: 0 -25px;
+}
+
+.landing .hosts li .overlay .social li.fb:hover {
+    background-position: -25px -25px;
+}
+
+.landing .hosts li .overlay .social li.tw {
+    background-position: 0 0;
+}
+
+.landing .hosts li .overlay .social li.tw:hover {
+    background-position: -25px 0;
+}
+
+.landing .hosts li .overlay .social li.ig {
+    background-position: 0 -50px;
+}
+
+.landing .hosts li .overlay .social li.ig:hover {
+    background-position: -25px -50px;
+}
+
+.landing .hosts li:hover .image img {
+    top: -15px;
+}
+
+.landing .hosts li:hover .overlay {
+    display: block;
+}
+
+.landing .hosts li:hover .overlay a {
+    color: white;
+}
+
+.landing .hosts li:hover .overlay a:hover {
+    color: #274ca4;
+}
+
+.the-conversation .advert {
+    width: 320px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+.the-conversation .advert.mobile-top {
+    margin-bottom: 31px;
+}
+
+.the-conversation .advert.mobile-top .ad-container {
+    display: block;
+}
+
+.the-conversation .advert.mobile-bottom {
+    margin-bottom: 0;
+}
+
+.the-conversation .advert.mobile-bottom .ad-container {
+    display: block;
+}
+
+.the-conversation .advert.non-mobile-top {
+    display: none;
+}
+
+.the-conversation .advert.non-mobile-top .ad-container {
+    display: none;
+}
+
+.the-conversation .advert img {
+    display: inline;
+}
+
+.the-conversation .five-o-meter {
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    clear: both;
+    overflow: auto;
+}
+
+.the-conversation .five-o-meter {
+    *zoom: 1;
+}
+
+.the-conversation .five-o-meter:before,.the-conversation .five-o-meter:after {
+    content: "";
+    display: table;
+}
+
+.the-conversation .five-o-meter:after {
+    clear: both;
+}
+
+.the-conversation .five-o-meter header h2 {
+    font: normal 36px/58px "Radley",Georgia,"Times New Roman",Times,serif;
+    color: #08153c;
+    margin: 0 4% 4px 4%;
+}
+
+.the-conversation .five-o-meter header h2 .five-oh {
+    background: url("../img/the-five/logo-five-oh.png") no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: -4px -60px;
+    text-indent: -9999em;
+}
+
+.the-conversation .five-o-meter p {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0 5% 20px 5%;
+    max-width: 550px;
+}
+
+.the-conversation .meter-select {
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1) inset;
+    clear: both;
+    float: left;
+    background: #d3d7da;
+    padding: 45px 0 0 0;
+}
+
+.the-conversation .meter-select {
+    *zoom: 1;
+}
+
+.the-conversation .meter-select:before,.the-conversation .meter-select:after {
+    content: "";
+    display: table;
+}
+
+.the-conversation .meter-select:after {
+    clear: both;
+}
+
+.the-conversation .meter-select li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding: 0 4%;
+    text-align: center;
+    position: relative;
+}
+
+.the-conversation .meter-select li:hover {
+    cursor: pointer;
+}
+
+.the-conversation .meter-select li .gauge {
+    background: url("../img/the-five/gauge-active.png") no-repeat center top;
+}
+
+.the-conversation .meter-select li.inactive .gauge {
+    background: url("../img/the-five/gauge-inactive.png") no-repeat center top;
+}
+
+.the-conversation .meter-select li.inactive img {
+    display: none;
+}
+
+.the-conversation .meter-select li.inactive .hashtag {
+    color: #999;
+}
+
+.the-conversation .meter-select li.inactive p {
+    color: #999;
+}
+
+.the-conversation .meter-select li .gauge {
+    margin: 0 auto 10px auto;
+    width: 156px;
+    height: 77px;
+    position: relative;
+}
+
+.the-conversation .meter-select li .gauge img {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.the-conversation .meter-select li .gauge .gtarget {
+    height: 77px;
+}
+
+.the-conversation .meter-select li .gauge .gauge-nob {
+    width: 87px;
+    height: 24px;
+    background: url("../img/the-five/gauge-nob.png");
+    position: absolute;
+    top: 80%;
+    left: 22%;
+}
+
+.the-conversation .meter-select li .hashtag {
+    display: block;
+    color: #274ca4;
+    font: bold 24px/28px "Radley",Georgia,"Times New Roman",Times,serif;
+    word-break: break-all;
+    letter-spacing: -1px;
+}
+
+.the-conversation .meter-select li .hashtag a,.the-conversation .meter-select li .hashtag a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.the-conversation .meter-select li .hashtag a:hover,.the-conversation .meter-select li .hashtag a:active {
+    border-bottom: 1px solid #274ca4;
+}
+
+.the-conversation .meter-select li p {
+    color: #08153c;
+    font: normal 18px/24px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 25px;
+}
+
+.the-conversation .meter-select footer .advert {
+    margin-bottom: 0;
+}
+
+.the-conversation aside {
+    clear: both;
+}
+
+.the-conversation .main-content {
+    *zoom: 1;
+}
+
+.the-conversation .main-content:before,.the-conversation .main-content:after {
+    content: "";
+    display: table;
+}
+
+.the-conversation .main-content:after {
+    clear: both;
+}
+
+.the-conversation .main-content .blog-comments {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+}
+
+.the-conversation .main-content section.g-28 {
+    clear: both;
+    float: none;
+    margin: 24px auto;
+    max-width: 95%;
+}
+
+.the-conversation .main-content section h2 {
+    display: none;
+    color: #08153c;
+    font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin: 24px 0 24px 24px;
+}
+
+.the-conversation .main-content aside {
+    display: none;
+}
+
+.the-conversation .main-content aside .ad-container {
+    display: none;
+}
+
+.article-single {
+    background: white;
+}
+
+.article-single section.g-28 {
+    margin-right: 0;
+    max-width: 100%;
+}
+
+.article-single article {
+    padding: 0 20px;
+    margin-bottom: 0;
+}
+
+.article-single article header {
+    float: none;
+}
+
+.article-single article header h2 {
+    font: normal 36px/39px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 10px;
+}
+
+.article-single article header .meta {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.article-single article header .meta a,.article-single article header .meta a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.article-single article header .meta a:hover,.article-single article header .meta a:active {
+    text-decoration: underline;
+}
+
+.article-single article header .meta .author {
+    clear: left;
+}
+
+.article-single article header .social .print {
+    display: none;
+}
+
+.article-single article .content iframe {
+    width: 100%;
+}
+
+.article-single article .content .media {
+    margin-bottom: 20px;
+}
+
+.article-single article .content .media img {
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.article-single article .content .media .caption {
+    color: #333;
+    font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.article-single article .content strong,.article-single article .content b {
+    font-weight: 700;
+}
+
+.article-single article .content em,.article-single article .content i {
+    font-style: italic;
+}
+
+.article-single article .content p {
+    color: #333;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 21px;
+}
+
+.article-single article .content a,.article-single article .content a:visited {
+    color: #274ca4;
+    text-decoration: underline;
+}
+
+.article-single article .content a:hover,.article-single article .content a:active {
+    text-decoration: none;
+}
+
+.article-single article .content ul {
+    margin-bottom: 21px;
+}
+
+.article-single article .content li {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #333;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.article-single article .content li a,.article-single article .content li a:visited {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+
+.article-single article .content li a:hover,.article-single article .content li a:active {
+    text-decoration: underline;
+}
+
+.article-single article .content blockquote {
+    border-top: 3px solid #dfe5ea;
+    border-bottom: 3px solid #dfe5ea;
+    padding: 15px 0 0 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.article-single article .content blockquote p {
+    font: 400 16px/24px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #08153c;
+}
+
+.article-single article .content blockquote .credit {
+    clear: both;
+    display: block;
+    color: #838a9d;
+    font: 300 14px/24px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    text-align: right;
+}
+
+.article-single .blog-comments {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.article-single .blog-comments h2 {
+    padding-left: 40px;
+    background: url("../img/the-five/icon-chat.png") no-repeat;
+    height: 28px;
+    margin-bottom: 24px;
+    color: #08153c;
+    font: 300 24px/24px "Radley",Georgia,"Times New Roman",Times,serif;
+}
+
+.article-single aside.g-13 {
+    padding: 0 10px;
+}
+
+.article-single aside.g-13 .the-clips .button {
+    margin-bottom: 40px;
+}
+
+.article-single div.fyre div.fyre-comment-stream {
+    max-height: 100%;
+}
+
+.article-single div.fyre .fyre-comment-head {
+    max-width: 88%!important;
+}
+
+.blog-landing {
+    background: white;
+}
+
+.blog-landing .main-content {
+    clear: both;
+}
+
+.blog-landing .main-content aside.g-13 {
+    padding: 0 10px;
+}
+
+.blog-landing section.g-28 {
+    max-width: 100%;
+    margin: 0 12px;
+    float: none;
+}
+
+.blog-landing article {
+    float: none;
+    border-top: 10px solid #f6f6f6;
+    margin-bottom: 30px;
+}
+
+.blog-landing article header {
+    margin: 20px 0 10px;
+}
+
+.blog-landing article.blog-music ul li {
+    float: left;
+    display: block;
+    list-style-type: none;
+    margin: 0 24px 12px 0;
+    font: 300 18px/21px "Robot","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blog-landing article.blog-music ul li .media {
+    float: left;
+    margin-right: 12px;
+}
+
+.blog-landing article.blog-music ul li .title {
+    font-size: 18px;
+    float: right;
+}
+
+.blog-landing article.blog-music ul li .title a,.blog-landing article.blog-music ul li .title a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.blog-landing article.blog-music ul li .title a:hover,.blog-landing article.blog-music ul li .title a:active {
+    text-decoration: underline;
+}
+
+.blog-landing article.blog-music ul li .artist {
+    color: #919191;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.blog-landing article.blog-quote blockquote {
+    clear: both;
+    position: relative;
+    padding: 0 36px 0 60px;
+    margin-bottom: 25px;
+}
+
+.blog-landing article.blog-quote blockquote p {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #08153c;
+    text-indent: 0;
+}
+
+.blog-landing article.blog-quote blockquote .credit {
+    clear: both;
+    display: block;
+    color: #838a9d;
+    font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blog-landing article.blog-quote blockquote:before {
+    background: url("../img/the-five/sprite-quotes-blog.png") no-repeat 0 0;
+    width: 50px;
+    height: 36px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.blog-landing article.blog-quote blockquote:after {
+    background: url("../img/the-five/sprite-quotes-blog.png") no-repeat 0 -36px;
+    width: 50px;
+    height: 36px;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.blog-landing article.blog-words .content blockquote {
+    margin-bottom: 15px;
+}
+
+.blog-landing article.blog-words .content blockquote p {
+    color: #274ca4;
+    font: 300 60px/60px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.blog-landing article.blog-quote .meta,.blog-landing article.blog-tweet .meta {
+    text-indent: 36px;
+}
+
+.blog-landing article.blog-gallery .slideshow {
+    position: relative;
+}
+
+.blog-landing article.blog-gallery .slideshow .show {
+    display: block;
+}
+
+.blog-landing article.blog-gallery .slideshow .hide {
+    display: none;
+}
+
+.blog-landing article.blog-gallery .slideshow li {
+    list-style-type: none;
+}
+
+.blog-landing article.blog-gallery .slideshow li {
+    *zoom: 1;
+}
+
+.blog-landing article.blog-gallery .slideshow li:before,.blog-landing article.blog-gallery .slideshow li:after {
+    content: "";
+    display: table;
+}
+
+.blog-landing article.blog-gallery .slideshow li:after {
+    clear: both;
+}
+
+.blog-landing article.blog-gallery .slideshow .m {
+    margin-bottom: 20px;
+}
+
+.blog-landing article.blog-gallery .slideshow .headline {
+    clear: both;
+    font: 600 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 504px;
+    float: left;
+}
+
+.blog-landing article.blog-gallery .slideshow .caption {
+    color: black;
+    font: italic 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 504px;
+    clear: left;
+    float: left;
+    padding: 0 0 15px 0;
+}
+
+.blog-landing article.blog-gallery .slideshow .caption .source {
+    clear: left;
+    font-style: normal;
+    color: #666;
+}
+
+.blog-landing article.blog-gallery .slideshow .count {
+    float: right;
+    max-width: 84px;
+    color: #08153c;
+    font: 400 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blog-landing article.blog-gallery .ctrl .prev,.blog-landing article.blog-gallery .ctrl .next {
+    background: url("../img/the-five/sprite-overlay-slideshow.png") no-repeat 0 -64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    top: 33%;
+    position: absolute;
+    text-indent: -9999em;
+}
+
+.blog-landing article.blog-gallery .ctrl .prev {
+    left: 10px;
+}
+
+.blog-landing article.blog-gallery .ctrl .prev:hover {
+    background-position: 0 0;
+}
+
+.blog-landing article.blog-gallery .ctrl .next {
+    right: 24px;
+    background-position: -64px -64px;
+}
+
+.blog-landing article.blog-gallery .ctrl .next:hover {
+    background-position: -64px 0;
+}
+
+.blog-landing article.blog-gallery .image {
+    position: relative;
+}
+
+.blog-landing article.blog-gallery .image span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 12px;
+    color: white;
+    background: rgba(0,0,0,0.8);
+    font-size: 14px;
+}
+
+.blog-landing article .content {
+    clear: both;
+}
+
+.blog-landing article .content p {
+    color: #333;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 21px;
+}
+
+.blog-landing article .content a,.blog-landing article .content a:visited {
+    color: #274ca4;
+    text-decoration: underline;
+}
+
+.blog-landing article .content a:hover,.blog-landing article .content a:active {
+    text-decoration: none;
+}
+
+.blog-landing article .content .media {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.blog-landing article .content .media .overlay {
+    position: absolute;
+    top: 35px;
+    left: 105px;
+}
+
+.blog-landing article .content .media .overlay a {
+    width: 118px;
+    height: 118px;
+    display: block;
+    background: url("../img/the-five/overlay-video.png") no-repeat 0 0;
+    text-indent: -9999em;
+}
+
+.blog-landing article .content .caption {
+    font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    padding-top: 15px;
+    display: block;
+}
+
+.blog-landing article footer .social {
+    float: left;
+    width: 56px;
+    margin-right: 12px;
+}
+
+.blog-landing article footer .social li {
+    float: left;
+    margin-right: 4px;
+    text-indent: -9999em;
+    list-style-type: none;
+}
+
+.blog-landing article footer .social li a {
+    display: block;
+    background: url("../img/the-five/sprite-social-hosts.png") no-repeat 0 0;
+    height: 24px;
+    width: 24px;
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)";
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    opacity: .5;
+}
+
+.blog-landing article footer .social li a:hover {
+    filter: alpha(opacity=100);
+    -ms-filter: "alpha(opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.blog-landing article footer .social li a.tw {
+    background-position: -24px;
+}
+
+.blog-landing article footer .tags.g-22 {
+    max-width: 420px;
+}
+
+.blog-landing article footer .tags.g-22 a,.blog-landing article footer .tags.g-22 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.blog-landing article footer .tags.g-22 a:hover,.blog-landing article footer .tags.g-22 a:active {
+    text-decoration: none;
+}
+
+.blog-landing article footer .tag-comment {
+    float: left;
+    clear: left;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-landing article footer .comment-count {
+    padding: 0;
+}
+
+.blog-landing article footer .comment-count a,.blog-landing article footer .comment-count a:visited {
+    color: #db2c2c;
+    text-decoration: none;
+}
+
+.blog-landing article footer .comment-count a:hover,.blog-landing article footer .comment-count a:active {
+    text-decoration: underline;
+}
+
+.blog-landing .post-region .pagination {
+    position: relative;
+    padding-bottom: 125px;
+    max-width: 310px;
+}
+
+.blog-landing .post-region .pagination .prev {
+    margin-right: 10px;
+}
+
+.blog-landing .post-region .pagination .next {
+    margin-left: 10px;
+}
+
+.blog-landing #mediaspace iframe,.blog-landing .vid-container iframe {
+    width: 100%;
+}
+
+.blog-landing article.blog-link .content p {
+    float: left;
+    clear: left;
+}
+
+.blog-landing article.blog-link .content .source-url {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #999;
+}
+
+.blog-single.article-single section.g-28 {
+    margin: 0 12px;
+    float: none;
+}
+
+.blog-single .blog-post {
+    border-top: 10px solid #f6f6f6;
+    padding: 20px 0 0 0;
+}
+
+.blog-single .blog-post.blog-words .content blockquote {
+    float: none;
+    margin: auto;
+    width: auto;
+    border: 0;
+    padding: 0;
+}
+
+.blog-single .blog-post.blog-words .content blockquote:before {
+    background: 0;
+}
+
+.blog-single .blog-post.blog-words .content blockquote:after {
+    background: 0;
+}
+
+.blog-single .blog-post.blog-words .content blockquote p {
+    color: #274ca4;
+    font: 300 60px/60px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.blog-single .blog-post.blog-quote .content blockquote {
+    float: none;
+    margin: auto;
+    width: auto;
+    border: 0;
+    padding: 0;
+    clear: both;
+    position: relative;
+    padding: 0 36px 0 60px;
+    margin-bottom: 25px;
+}
+
+.blog-single .blog-post.blog-quote .content blockquote p {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #08153c;
+    text-indent: 0;
+}
+
+.blog-single .blog-post.blog-quote .content blockquote .credit {
+    clear: both;
+    display: block;
+    text-align: left;
+    color: #838a9d;
+    font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blog-single .blog-post.blog-quote .content blockquote:before {
+    background: url("../img/the-five/sprite-quotes-blog.png") no-repeat 0 0;
+    width: 50px;
+    height: 36px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.blog-single .blog-post.blog-quote .content blockquote:after {
+    background: url("../img/the-five/sprite-quotes-blog.png") no-repeat 0 -36px;
+    width: 50px;
+    height: 36px;
+    content: "";
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+}
+
+.blog-single .blog-post.blog-gallery .content .source {
+    display: block;
+    font-size: 11px;
+}
+
+.blog-single.photo-gallery article .content .media {
+    position: relative;
+    max-width: 600px;
+}
+
+.blog-single.photo-gallery article .content .media img {
+    border: 0;
+}
+
+.blog-single.photo-gallery article .content .media .prev,.blog-single.photo-gallery article .content .media .next {
+    background: url("../img/the-five/sprite-overlay-slideshow.png") no-repeat 0 -64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    top: 33%;
+    position: absolute;
+    text-indent: -9999em;
+}
+
+.blog-single.photo-gallery article .content .media .prev {
+    left: 10px;
+}
+
+.blog-single.photo-gallery article .content .media .prev:hover {
+    background-position: 0 0;
+}
+
+.blog-single.photo-gallery article .content .media .next {
+    right: 10px;
+    background-position: -64px -64px;
+}
+
+.blog-single.photo-gallery article .content .media .next:hover {
+    background-position: -64px 0;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap {
+    margin-bottom: 24px;
+    max-width: 600px;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap {
+    *zoom: 1;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap:before,.blog-single.photo-gallery article .content .caption-wrap:after {
+    content: "";
+    display: table;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap:after {
+    clear: both;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap .title {
+    font: 600 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 504px;
+    float: left;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap .caption {
+    color: black;
+    font: italic 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 504px;
+    float: left;
+}
+
+.blog-single.photo-gallery article .content .caption-wrap .source {
+    font-style: normal;
+    color: #666;
+}
+
+.blog-single.photo-gallery article .content .count {
+    float: right;
+    max-width: 84px;
+    color: #08153c;
+    font: 400 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blog-single.photo-gallery article .content .slideshow {
+    position: relative;
+}
+
+.blog-single.photo-gallery article .content .slideshow .show {
+    display: block;
+}
+
+.blog-single.photo-gallery article .content .slideshow .hide {
+    display: none;
+}
+
+.blog-single.photo-gallery article .content .slideshow li {
+    list-style-type: none;
+}
+
+.blog-single.photo-gallery article .content .slideshow li {
+    *zoom: 1;
+}
+
+.blog-single.photo-gallery article .content .slideshow li:before,.blog-single.photo-gallery article .content .slideshow li:after {
+    content: "";
+    display: table;
+}
+
+.blog-single.photo-gallery article .content .slideshow li:after {
+    clear: both;
+}
+
+.blog-single.photo-gallery article .content .slideshow .m {
+    margin-bottom: 20px;
+}
+
+.blog-single.photo-gallery article .content .slideshow .headline {
+    clear: both;
+    font: 600 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 504px;
+    float: left;
+}
+
+.blog-single.photo-gallery article .content .slideshow .caption {
+    color: black;
+    font: italic 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 504px;
+    clear: left;
+    float: left;
+}
+
+.blog-single.photo-gallery article .content .slideshow .caption .source {
+    clear: left;
+    font-style: normal;
+    color: #666;
+}
+
+.blog-single.photo-gallery article .content .slideshow .count {
+    float: right;
+    max-width: 84px;
+    color: #08153c;
+    font: 400 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blog-single.photo-gallery article .content .ctrl .prev,.blog-single.photo-gallery article .content .ctrl .next {
+    background: url("../img/the-five/sprite-overlay-slideshow.png") no-repeat 0 -64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    top: 33%;
+    position: absolute;
+    text-indent: -9999em;
+}
+
+.blog-single.photo-gallery article .content .ctrl .prev {
+    left: 10px;
+}
+
+.blog-single.photo-gallery article .content .ctrl .prev:hover {
+    background-position: 0 0;
+}
+
+.blog-single.photo-gallery article .content .ctrl .next {
+    right: 10px;
+    background-position: -64px -64px;
+}
+
+.blog-single.photo-gallery article .content .ctrl .next:hover {
+    background-position: -64px 0;
+}
+
+.blog-single article.blog-gallery .image {
+    position: relative;
+}
+
+.blog-single article.blog-gallery .content .image img {
+    border: 0;
+}
+
+.blog-single article.blog-gallery .image span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 12px;
+    color: white;
+    background: rgba(0,0,0,0.8);
+    font-size: 14px;
+}
+
+.blog-single footer {
+    border-bottom: 1px solid black;
+}
+
+.blog-single footer {
+    *zoom: 1;
+}
+
+.blog-single footer:before,.blog-single footer:after {
+    content: "";
+    display: table;
+}
+
+.blog-single footer:after {
+    clear: both;
+}
+
+.blog-single footer .social {
+    float: left;
+    width: 48px;
+    margin: 0 12px 12px 0;
+    border: 0;
+}
+
+.blog-single footer .social li {
+    float: left;
+    margin-right: 0;
+    text-indent: -9999em;
+    list-style-type: none;
+}
+
+.blog-single footer .social li a {
+    display: block;
+    background: url("../img/the-five/sprite-social-hosts.png") no-repeat 0 0;
+    height: 24px;
+    width: 24px;
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)";
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    opacity: .5;
+}
+
+.blog-single footer .social li a:hover {
+    filter: alpha(opacity=100);
+    -ms-filter: "alpha(opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.blog-single footer .social li a.tw {
+    background-position: -24px;
+}
+
+.blog-single footer .tag-comment {
+    max-width: 660px;
+    border: 0;
+}
+
+.blog-single footer .tags {
+    padding: 0;
+}
+
+.blog-single footer .tags.g-22 {
+    max-width: 456px;
+}
+
+.blog-single footer .comment-count {
+    padding: 0;
+}
+
+.blog-single #mediaspace iframe,.blog-single .vid-container iframe {
+    width: 100%;
+}
+
+.transcript-landing {
+    background: white;
+}
+
+.transcript-landing .matched-keyword {
+    color: #274ca4;
+}
+
+.transcript-landing .g-28 {
+    margin-left: 12px;
+}
+
+.transcript-landing article {
+    padding: 0 12px;
+    margin-bottom: 30px;
+}
+
+.transcript-landing article .search-term {
+    color: #274ca4;
+}
+
+.transcript-landing article a,.transcript-landing article a:visited {
+    color: #274ca4;
+    text-decoration: none;
+}
+
+.transcript-landing article a:hover,.transcript-landing article a:active {
+    text-decoration: underline;
+}
+
+.transcript-landing article header .date {
+    font: normal 14px/20px "Radley",Georgia,"Times New Roman",Times,serif;
+    color: #274ca4;
+}
+
+.transcript-landing article header h2 {
+    font: bold 24px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 15px;
+}
+
+.transcript-landing article header h2 a,.transcript-landing article header h2 a:visited {
+    color: #08153c;
+}
+
+.transcript-landing article p {
+    color: #333;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.transcript-landing .pagination {
+    padding-top: 30px;
+    margin-bottom: 75px;
+}
+
+.transcript-landing .pagination .prev {
+    margin-right: 16px;
+}
+
+.transcript-landing .pagination .next {
+    margin-left: 16px;
+}
+
+.transcript-landing .filter-search {
+    margin-bottom: 25px;
+    padding: 0 20px 32px 20px;
+    border-bottom: 12px solid #f6f6f6;
+}
+
+.transcript-landing .filter-search {
+    *zoom: 1;
+}
+
+.transcript-landing .filter-search:before,.transcript-landing .filter-search:after {
+    content: "";
+    display: table;
+}
+
+.transcript-landing .filter-search:after {
+    clear: both;
+}
+
+.transcript-landing .filter-search h2 {
+    font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    color: #08153c;
+    margin-bottom: 20px;
+}
+
+.transcript-landing .filter-search .search-wrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
+}
+
+.transcript-landing .filter-search .search-wrap.keyword {
+    margin-bottom: 20px;
+}
+
+.transcript-landing .filter-search .search-wrap label {
+    display: block;
+    color: #08153c;
+    font: normal 18px/18px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin: 0 0 6px -10px;
+}
+
+.transcript-landing .filter-search .search-wrap label[for="date-end"] {
+    text-indent: -9999em;
+}
+
+.transcript-landing .filter-search .search-wrap #keyword {
+    width: 220px;
+}
+
+.transcript-landing .filter-search .search-wrap #edit-date-from-datepicker-popup-0,.transcript-landing .filter-search .search-wrap #edit-date-to-datepicker-popup-0 {
+    padding-left: 50px;
+    width: 130px;
+    background: #dfe5ea url('../img/the-five/icon-calendar.jpg') no-repeat 5px center;
+}
+
+.transcript-landing .filter-search .search-wrap:before {
+    top: 24px;
+}
+
+.transcript-landing .filter-search .search-wrap:after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: -13px;
+    top: 24px;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    width: 1px;
+    border-top: 0 solid transparent;
+    border-top: 42px solid transparent;
+    border-left: 12px solid #dfe5ea;
+}
+
+.transcript-landing .filter-search .search-wrap.submit {
+    margin-top: 22px;
+}
+
+.transcript-landing .filter-search .search-wrap.submit #submit {
+    padding: 11px 50px 11px 30px;
+}
+
+.transcript-landing .filter-search .search-wrap.submit:before,.transcript-landing .filter-search .search-wrap.submit:after {
+    border: 0;
+}
+
+.transcript-landing .search-query {
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+
+.transcript-landing .search-query h2 {
+    color: #08153c;
+    font: 400 24px/36px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 0;
+}
+
+.transcript-landing .search-query .total {
+    color: #333;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.transcript-single .media iframe {
+    width: 100%;
+}
+
+.hosts-landing {
+    background: white;
+}
+
+.hosts-landing .g-28 {
+    max-width: 100%;
+    margin: 0 12px;
+    float: none;
+}
+
+.hosts-landing article {
+    border-bottom: 1px solid #999;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.hosts-landing article {
+    *zoom: 1;
+}
+
+.hosts-landing article:before,.hosts-landing article:after {
+    content: "";
+    display: table;
+}
+
+.hosts-landing article:after {
+    clear: both;
+}
+
+.hosts-landing article:last-of-type {
+    border: 0;
+}
+
+.hosts-landing article .media {
+    float: left;
+    width: 264px;
+    margin: 0 24px 24px 0;
+}
+
+.hosts-landing article .media .image {
+    -moz-transform: skew(-13deg,0deg);
+    -webkit-transform: skew(-13deg,0deg);
+    -o-transform: skew(-13deg,0deg);
+    -ms-transform: skew(-13deg,0deg);
+    transform: skew(-13deg,0deg);
+    background: #dfe5ea;
+    margin: 0 0 0 32px;
+    width: 200px;
+    height: 264px;
+    overflow: hidden;
+}
+
+.hosts-landing article .media img {
+    margin: 0 0 0 -32px;
+    max-width: none;
+    -moz-transform: skew(13deg,0deg);
+    -webkit-transform: skew(13deg,0deg);
+    -o-transform: skew(13deg,0deg);
+    -ms-transform: skew(13deg,0deg);
+    transform: skew(13deg,0deg);
+}
+
+.hosts-landing article .content {
+    float: left;
+    font: 400 16px/24px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 348px;
+}
+
+.hosts-landing article .content header {
+    float: left;
+    width: 100%;
+}
+
+.hosts-landing article .content header {
+    *zoom: 1;
+}
+
+.hosts-landing article .content header:before,.hosts-landing article .content header:after {
+    content: "";
+    display: table;
+}
+
+.hosts-landing article .content header:after {
+    clear: both;
+}
+
+.hosts-landing article .content header h2 {
+    float: left;
+    max-width: 264px;
+    font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin: 0 12px 20px 0;
+}
+
+.hosts-landing article .content header h2 a,.hosts-landing article .content header h2 a:visited {
+    color: #08153c;
+    text-decoration: none;
+}
+
+.hosts-landing article .content header h2 a:hover,.hosts-landing article .content header h2 a:active {
+    text-decoration: underline;
+}
+
+.hosts-landing article .content header .social {
+    float: right;
+    max-width: 72px;
+    margin: 4px 0 0 0;
+}
+
+.hosts-landing article .content header .social li {
+    width: 24px;
+    float: left;
+    display: block;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.hosts-landing article .content header .social li a {
+    display: block;
+    text-indent: -9999em;
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)";
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    opacity: .5;
+}
+
+.hosts-landing article .content header .social li a:hover {
+    filter: alpha(opacity=100);
+    -ms-filter: "alpha(opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.hosts-landing article .content header .social li a:before {
+    height: 24px;
+    width: 24px;
+    content: "";
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    background: url("../img/the-five/sprite-social-hosts.png") no-repeat 0 0;
+}
+
+.hosts-landing article .content header .social li.tw a:before {
+    background-position: -24px 0;
+}
+
+.hosts-landing article .content header .social li.ig a:before {
+    background-position: -48px 0;
+}
+
+.hosts-landing article .content p {
+    margin-bottom: 24px;
+}
+
+.hosts-landing article .content .button {
+    float: left;
+}
+
+.hosts-landing aside.g-13 {
+    position: relative;
+}
+
+.hosts-single {
+    background: white;
+}
+
+.hosts-single header .gray-wash {
+    display: none;
+}
+
+.hosts-single .clip-blog {
+    clear: both;
+    background: #08153c;
+    padding: 30px 0;
+}
+
+.hosts-single .clip-blog .g-13 {
+    margin-bottom: 30px;
+}
+
+.hosts-single .g-28 {
+    margin: 0;
+}
+
+.hosts-single article {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.hosts-single article h2 {
+    font: normal 36px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 20px;
+}
+
+.hosts-single article strong {
+    font-weight: bold;
+}
+
+.hosts-single article.host-main .pagination {
+    float: none;
+    margin-bottom: 26px;
+}
+
+.hosts-single article.host-main .pagination li {
+    margin: 0 0 0 24px;
+}
+
+.hosts-single article.host-main .pagination li.prev {
+    margin-left: 0;
+}
+
+.hosts-single article.host-main .media {
+    clear: right;
+    float: left;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.hosts-single article.host-main .media img {
+    margin: 0 0 12px 0;
+}
+
+.hosts-single article.host-main .social li {
+    margin-bottom: 12px;
+}
+
+.hosts-single article.host-main .social li a,.hosts-single article.host-main .social li a:visited {
+    position: relative;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #274ca4;
+    font: 300 14px/24px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.hosts-single article.host-main .social li a:active,.hosts-single article.host-main .social li a:hover,.hosts-single article.host-main .social li a:visited:active,.hosts-single article.host-main .social li a:visited:hover {
+    text-decoration: underline;
+}
+
+.hosts-single article.host-main .social li a:before,.hosts-single article.host-main .social li a:visited:before {
+    display: block;
+    height: 24px;
+    width: 24px;
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    overflow: hidden;
+    background: url("../img/the-five/sprite-social-hosts.png") no-repeat 0 0;
+}
+
+.hosts-single article.host-main .social li.tw a:before {
+    background-position: -24px 0;
+}
+
+.hosts-single article.host-main .social li.ig a:before {
+    background-position: -48px 0;
+}
+
+.hosts-single article.host-main .content header {
+    float: none;
+}
+
+.hosts-single article.host-main .content .summary {
+    margin-bottom: 24px;
+}
+
+.hosts-single article .content header {
+    margin: 20px 0 10px 0;
+}
+
+.hosts-single article .content header h2 {
+    color: #08153c;
+    font: normal 52px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.hosts-single article .content header .role {
+    color: #08153c;
+    font: italic 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.hosts-single article .content p {
+    color: #333;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 21px;
+}
+
+.hosts-single article .content .button {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.hosts-single article .content .ad {
+    float: right;
+}
+
+.hosts-single .clip-blog {
+    margin-bottom: 36px;
+}
+
+.hosts-single .clip-blog article header h2 a,.hosts-single .clip-blog article header h2 a:active,.hosts-single .clip-blog article header h2 a:visited,.hosts-single .clip-blog article header h2 a:hover {
+    color: #dfe5ea;
+    text-decoration: none;
+}
+
+.hosts-single .clip-blog article header .button {
+    float: left;
+    clear: left;
+    margin-bottom: 25px;
+}
+
+.hosts-single .clip-blog article p {
+    color: #dfe5ea;
+}
+
+.hosts-single .clip-blog article .media {
+    position: relative;
+}
+
+.hosts-single .clip-blog article .media .overlay {
+    background: url("../img/the-five/sprite-overlay-video.png") no-repeat 0 0;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999em;
+}
+
+.hosts-single .clip-blog article .media:hover .overlay {
+    background-position: 0 -50px;
+}
+
+.hosts-single .clip-blog article .title {
+    color: white;
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.hosts-single .clip-blog article .title a,.hosts-single .clip-blog article .title a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.hosts-single .clip-blog article .title a:hover,.hosts-single .clip-blog article .title a:active {
+    text-decoration: underline;
+}
+
+.hosts-single .questions-answers strong {
+    font: bold 18px/21px "Radley",Georgia,"Times New Roman",Times,serif;
+}
+
+.hosts-single .questions-answers .question {
+    clear: both;
+    border-bottom: 1px solid black;
+    margin-bottom: 21px;
+}
+
+.hosts-single .questions-answers .question:last-child {
+    border: 0;
+}
+
+.hosts-single .questions-answers .a {
+    font-style: italic;
+}
+
+.hosts-single .questions-answers .a strong {
+    font-weight: bold;
+}
+
+.hosts-single .questions-answers .content {
+    margin-bottom: 30px;
+}
+
+.hosts-single .questions-answers .pagination .prev {
+    margin-right: 24px;
+}
+
+.hosts-single .questions-answers .pagination .next {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.video-landing {
+    background: #08153c;
+}
+
+.video-landing #video .video {
+    width: 100%!important;
+    height: 240px!important;
+}
+
+.video-landing #video .fox-video-list {
+    height: 100%;
+}
+
+.video-landing .main-video,.video-landing .vid-block {
+    clear: both;
+    position: relative;
+}
+
+.video-landing .main-video {
+    width: 100%;
+}
+
+.video-landing .main-video.g-40 {
+    float: none;
+    margin: 0 auto;
+}
+
+.video-landing .main-video .player-wrap {
+    background: black;
+    position: relative;
+    z-index: 10;
+}
+
+.video-landing .main-video .player-wrap .player {
+    max-width: 906px;
+    margin: 0 auto;
+}
+
+.video-landing .main-video .content-wrap {
+    background: #274ca4;
+    margin-bottom: 50px;
+}
+
+.video-landing .main-video .content-wrap {
+    *zoom: 1;
+}
+
+.video-landing .main-video .content-wrap:before,.video-landing .main-video .content-wrap:after {
+    content: "";
+    display: table;
+}
+
+.video-landing .main-video .content-wrap:after {
+    clear: both;
+}
+
+.video-landing .main-video .content-wrap .content {
+    color: white;
+    padding: 24px 12px 24px 24px;
+    max-width: 568px;
+    float: left;
+    position: relative;
+}
+
+.video-landing .main-video .content-wrap .content h2 {
+    font: normal 24px/30px "Radley",Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 10px;
+}
+
+.video-landing .main-video .content-wrap .content p {
+    font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.video-landing .main-video .content-wrap .advert {
+    float: right;
+    padding-left: 12px;
+}
+
+.video-landing .main-video .content-wrap .advert .ad {
+    z-index: 100;
+    position: relative;
+}
+
+.video-landing .main-content {
+    margin-bottom: 80px;
+}
+
+.video-landing .main-content {
+    *zoom: 1;
+}
+
+.video-landing .main-content:before,.video-landing .main-content:after {
+    content: "";
+    display: table;
+}
+
+.video-landing .main-content:after {
+    clear: both;
+}
+
+.video-landing .vid-block {
+    *zoom: 1;
+}
+
+.video-landing .vid-block:before,.video-landing .vid-block:after {
+    content: "";
+    display: table;
+}
+
+.video-landing .vid-block:after {
+    clear: both;
+}
+
+.video-landing .vid-block.g-34 {
+    float: none;
+    margin: 0 auto;
+    max-width: 816px;
+}
+
+.video-landing .vid-block header {
+    margin-bottom: 24px;
+}
+
+.video-landing .vid-block header h2 {
+    padding: 0 12px;
+    color: #274ca4;
+    font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+}
+
+.video-landing .vid-block .section-content {
+    *zoom: 1;
+}
+
+.video-landing .vid-block .section-content:before,.video-landing .vid-block .section-content:after {
+    content: "";
+    display: table;
+}
+
+.video-landing .vid-block .section-content:after {
+    clear: both;
+}
+
+.video-landing .vid-block .section-content li {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.video-landing .vid-block .section-content li.g-8 {
+    margin-left: 12px;
+    max-width: 136px;
+}
+
+.video-landing .vid-block .section-content li.g-first {
+    margin-left: 0;
+}
+
+.video-landing .vid-block .section-content li:nth-child(2n+1) {
+    clear: left;
+}
+
+.video-landing .vid-block .section-content li .media {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.video-landing .vid-block .section-content li .media .overlay {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.video-landing .vid-block .section-content li .media .overlay a {
+    display: block;
+    text-indent: -9999em;
+    background: url("../img/the-five/icon-overlay-video-sm.png") no-repeat 0 0;
+    width: 32px;
+    height: 32px;
+}
+
+.video-landing .vid-block .section-content li p {
+    color: #e8e8e8;
+    font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.video-landing .vid-block .section-content li p a,.video-landing .vid-block .section-content li p a:visited {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.video-landing .vid-block .section-content li p a:active,.video-landing .vid-block .section-content li p a:hover {
+    text-decoration: underline;
+}
+
+.video-landing .vid-block footer {
+    border-top: 1px solid #183170;
+    padding-top: 20px;
+    max-width: 636px;
+    margin: 0 auto 15px auto;
+}
+
+.video-landing .vid-block footer .button {
+    float: none;
+    text-align: center;
+}
+
+.video-landing .vid-block footer .button.red a {
+    background-image: none;
+    padding-right: 15px;
+}
+
+.video-landing #video object {
+    width: 100%;
+}
+
+.video-landing .content.advert {
+    position: relative;
+    z-index: 10;
+}
+
+.conversation-landing {
+    background: white;
+}
+
+.conversation-landing .main-content .social {
+    float: right;
+    margin-top: -50px;
+    position: relative;
+}
+
+.conversation-landing .main-content .social li {
+    display: block;
+    float: left;
+    text-indent: -9999em;
+    margin-left: 12px;
+}
+
+.conversation-landing .main-content .social li a {
+    display: block;
+    background: url("../img/the-five/sprite-social-conversation.png") no-repeat 0 -30px;
+    height: 30px;
+    width: 25px;
+}
+
+.conversation-landing .main-content .social li.tw a:hover {
+    background-position: 0 0;
+}
+
+.conversation-landing .main-content .social li.ig a {
+    width: 28px;
+    background-position: -34px -30px;
+}
+
+.conversation-landing .main-content .social li.ig a:hover {
+    background-position: -34px 0;
+}
+
+.conversation-landing .main-content .social li.v a {
+    width: 22px;
+    background-position: -70px -30px;
+}
+
+.conversation-landing .main-content .social li.v a:hover {
+    background-position: -70px 0;
+}
+
+.conversation-landing .main-content .social li.yt a {
+    width: 59px;
+    background-position: -98px -30px;
+}
+
+.conversation-landing .main-content .social li.yt a:hover {
+    background-position: -98px 0;
+}
+
+.conversation-landing .main-content .social li.fb a {
+    width: 20px;
+    background-position: -166px -30px;
+}
+
+.conversation-landing .main-content .social li.fb a:hover {
+    background-position: -166px 0;
+}
+
+@media all and (min-width:768px) {
+    .page #util>div {
+        float: none;
+        max-width: 768px;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .page #util li {
+        margin: 6px 31px 0 0;
+    }
+
+    .page #util #account {
+        float: right;
+    }
+
+    #util .branding {
+        margin: 8px 40px 0 8px;
+    }
+
+    #util>div>ul {
+        width: 768px;
+    }
+
+    #util>div>ul>li:nth-of-type(3) {
+        float: right;
+    }
+
+    #util li.capture_modal_open {
+        margin-top: 0;
+    }
+
+    .page #util>div {
+        max-width: 768px;
+    }
+
+    .header {
+        background-position: 77% 95%;
+        height: 125px;
+    }
+
+    .header .big-red {
+        background: url("../img/the-five/divider-top.png") no-repeat 0 -25px;
+        margin-left: -555px;
+        padding-right: 500px;
+    }
+
+    .header nav {
+        background-color: #4260b4;
+        background-color: rgba(66,96,180,0.7);
+        font: normal 17px/20px "Radley",Georgia,"Times New Roman",Times,serif;
+        margin-bottom: 25px;
+    }
+
+    .header nav {
+        *zoom: 1;
+    }
+
+    .header nav:before,.header nav:after {
+        content: "";
+        display: table;
+    }
+
+    .header nav:after {
+        clear: both;
+    }
+
+    .header nav li {
+        float: left;
+        display: block;
+        list-style-type: none;
+    }
+
+    .header nav li {
+        *zoom: 1;
+    }
+
+    .header nav li:before,.header nav li:after {
+        content: "";
+        display: table;
+    }
+
+    .header nav li:after {
+        clear: both;
+    }
+
+    .header nav li a,.header nav li a:visited {
+        padding: 23px 13px;
+    }
+
+    .header nav li.home {
+        text-indent: -9999em;
+    }
+
+    .header nav li.home a {
+        background: url("../img/the-five/logo-nav.png") no-repeat center 0;
+        height: 86px;
+        width: 100px;
+    }
+
+    .header nav li .social {
+        display: block;
+        margin-right: 0;
+    }
+
+    .header nav li .social li:hover {
+        background-color: #4260b4;
+        background-color: rgba(66,96,180,0.7);
+    }
+
+    .header nav li .social li a,.header nav li .social li a:visited {
+        text-indent: -9999em;
+        background: url("../img/the-five/sprite-nav-social.png") no-repeat;
+        padding: 28px 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header nav li .social .fb a {
+        background-position: 0 center;
+    }
+
+    .header nav li .social .tw a {
+        background-position: -30px center;
+    }
+
+    .header nav li .social .ig a {
+        background-position: -60px center;
+    }
+
+    .the-five {
+        background-position: 0 160px;
+        height: 215px;
+    }
+
+    .the-five .big-red {
+        background: url("../img/the-five/divider-bottom.png") no-repeat -575px 160px;
+    }
+
+    .the-five .timeslot {
+        position: absolute;
+        left: 205px;
+        top: 30px;
+        padding: 0;
+        width: 160px;
+        font-size: 39px;
+        line-height: 39px;
+    }
+
+    .the-five .timeslot .time {
+        font-size: 27px;
+        line-height: 20px;
+    }
+
+    .the-five .timeslot .time strong {
+        font-size: 68px;
+    }
+
+    .the-five .timeslot .time small {
+        font-size: 19px;
+    }
+
+    .the-five .people {
+        background: url("../img/the-five/sprite-people.png") -90px -306px;
+        height: 210px;
+        width: 375px;
+        right: 20px;
+        bottom: 0;
+    }
+
+    .the-five .logo {
+        background-position: 10px -140px;
+        height: 150px;
+        width: 200px;
+    }
+
+    aside.g-13 #block-multiblock-3 {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-3 .ad-container {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-9 {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-9 .ad-container {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-10 {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-10 .ad-container {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-11 {
+        display: block;
+    }
+
+    aside.g-13 #block-multiblock-11 .ad-container {
+        display: block;
+    }
+
+    .pagination .page {
+        display: block;
+    }
+
+    .pagination .next {
+        float: left;
+    }
+
+    .tag-comment .tags {
+        padding: 0;
+    }
+
+    .tag-comment .tags.g-22 {
+        float: left;
+        max-width: 552px;
+        width: 100%;
+    }
+
+    .tag-comment .comment-count {
+        padding: 0;
+    }
+
+    .tag-comment .comment-count.g-5 {
+        clear: none;
+        float: right;
+        margin-top: 0;
+    }
+
+    .more-topic,.recommend-more {
+        padding: 0;
+    }
+
+    .recommend-more {
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        border-bottom: 10px solid #f6f6f6;
+    }
+
+    .recommend-more li {
+        color: #999;
+        border-bottom: 1px dotted #a8a8a8;
+        padding: 10px 0;
+        font: normal 13px/19px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .recommend-more li:last-child {
+        border-bottom: 0;
+    }
+
+    .recommend-more li a,.recommend-more li a:visited {
+        color: #274ca4;
+        text-decoration: none;
+    }
+
+    .recommend-more li a:hover,.recommend-more li a:active {
+        text-decoration: underline;
+    }
+
+    .recommend-more .g-13 {
+        margin-right: 60px;
+        max-width: 300px;
+    }
+
+    .recommend-more .g-last {
+        margin-right: 0;
+    }
+
+    .recommend-more h2 {
+        color: #08153c;
+        font: normal 18px/24px "Radley",Georgia,"Times New Roman",Times,serif;
+    }
+
+    aside.g-13 {
+        float: none;
+        padding: 0;
+        width: 648px;
+        max-width: 648px;
+        margin: 0 auto;
+    }
+
+    aside.g-13 .module {
+        float: left;
+        width: 50%;
+    }
+
+    aside.g-13 .module.the-topics {
+        min-height: 250px;
+    }
+
+    aside.g-13 .module.the-clips {
+        width: 100%;
+    }
+
+    aside.g-13 .module.the-clips ul {
+        *zoom: 1;
+    }
+
+    aside.g-13 .module.the-clips ul:before,aside.g-13 .module.the-clips ul:after {
+        content: "";
+        display: table;
+    }
+
+    aside.g-13 .module.the-clips ul:after {
+        clear: both;
+    }
+
+    aside.g-13 .module.the-clips li {
+        float: left;
+        width: 33%;
+    }
+
+    aside.g-13 .module.the-clips li .media {
+        width: 145px;
+        max-width: 145px;
+    }
+
+    aside.g-13 .module.the-clips li .summary {
+        clear: left;
+        width: 200px;
+        max-width: 200px;
+    }
+
+    aside.g-13 .module.the-clips .button {
+        clear: left;
+        margin-bottom: 30px;
+    }
+
+    .blog-landing header,.blog-single header,.transcript-landing header,.hosts-landing header,.conversation-landing header {
+        height: auto;
+    }
+
+    .blog-landing header .big-red,.blog-single header .big-red,.transcript-landing header .big-red,.hosts-landing header .big-red,.conversation-landing header .big-red {
+        background: url("../img/the-five/bg-header-blog.png") no-repeat -100px 0;
+        margin-left: -500px;
+    }
+
+    .blog-landing header .gray-wash,.blog-single header .gray-wash,.transcript-landing header .gray-wash,.hosts-landing header .gray-wash,.conversation-landing header .gray-wash {
+        background: #dfe5ea;
+        height: 260px;
+        margin: -112px 0 33px 0;
+        position: relative;
+        z-index: -1;
+    }
+
+    .blog-landing header .gray-wash h1,.blog-single header .gray-wash h1,.transcript-landing header .gray-wash h1,.hosts-landing header .gray-wash h1,.conversation-landing header .gray-wash h1 {
+        position: absolute;
+        color: #274ca4;
+        font: normal 52px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+        bottom: 23px;
+        padding: 0;
+        right: 36px;
+    }
+
+    .transcript-landing header .big-red,.hosts-landing header .big-red,.conversation-landing header .big-red {
+        background: url("../img/the-five/divider-top.png") no-repeat 0 -25px;
+        margin-left: -555px;
+        padding-right: 500px;
+    }
+
+    .transcript-landing header .gray-wash,.hosts-landing header .gray-wash,.conversation-landing header .gray-wash {
+        margin-bottom: 5px;
+        height: 216px;
+    }
+
+    .transcript-landing header .gray-wash h1,.hosts-landing header .gray-wash h1,.conversation-landing header .gray-wash h1 {
+        right: auto;
+        left: 20px;
+    }
+
+    .article-single .the-five .gray-wash,.hosts-landing .the-five .gray-wash,.hosts-single .the-five .gray-wash,.transcript-landing .the-five .gray-wash,.video-landing .the-five .gray-wash,.conversation-landing .the-five .gray-wash {
+        display: block;
+        background: #dfe5ea;
+        height: 225px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .blog-post header .meta {
+        position: relative;
+        padding-left: 36px;
+    }
+
+    .blog-post header .meta {
+        *zoom: 1;
+    }
+
+    .blog-post header .meta:before,.blog-post header .meta:after {
+        content: "";
+        display: table;
+    }
+
+    .blog-post header .meta:after {
+        clear: both;
+    }
+
+    .blog-post header .meta:before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 0;
+        text-indent: -9999em;
+        background: url("../img/the-five/sprite-blog-icons.png") no-repeat 0 0;
+    }
+
+    .blog-post header .meta h2 {
+        text-indent: 0;
+        font: normal 24px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+        margin: -5px 0 -10px 0;
+    }
+
+    .blog-post header .meta h2 a,.blog-post header .meta h2 a:visited {
+        color: #08153c;
+        text-decoration: none;
+    }
+
+    .blog-post header .meta h2 a:hover,.blog-post header .meta h2 a:active {
+        text-decoration: underline;
+    }
+
+    .blog-post header .meta .date {
+        clear: both;
+        float: left;
+        font: normal 14px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    }
+
+    .blog-post header .meta .date a,.blog-post header .meta .date a:visited {
+        color: #274ca4;
+        text-decoration: none;
+    }
+
+    .blog-post header .meta .date a:hover,.blog-post header .meta .date a:active {
+        text-decoration: underline;
+    }
+
+    .blog-post.blog-quote .meta,.blog-post.blog-tweet .meta {
+        text-indent: 0;
+    }
+
+    .advert.mobile {
+        display: none;
+    }
+
+    .advert.mobile .ad-container {
+        display: none;
+    }
+
+    .advert.non-mobile {
+        display: block;
+    }
+
+    .advert.non-mobile .ad-container {
+        display: block;
+    }
+
+    .landing .header {
+        height: 375px;
+    }
+
+    .landing .header nav {
+        clear: both;
+    }
+
+    .landing .stage {
+        margin-top: -111px;
+    }
+
+    .landing .five-o-meter {
+        padding: 10px 0 130px 0;
+        background: #dfe5ea url("../img/the-five/divider-bottom.png") no-repeat center bottom;
+    }
+
+    .landing .five-o-meter .wrap:before {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-fiveometer-left.png") no-repeat;
+        width: 447px;
+        height: 825px;
+        left: -425px;
+        top: -120px;
+        z-index: -1;
+    }
+
+    .landing .five-o-meter:after {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-fiveometer-right.png") no-repeat;
+        width: 598px;
+        height: 539px;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .landing .five-o-meter .g-41 {
+        margin: 0 auto;
+    }
+
+    .landing .five-o-meter .g-28 {
+        float: none;
+        max-width: 648px;
+        margin: 0 auto;
+    }
+
+    .landing .five-o-meter header {
+        width: auto;
+    }
+
+    .landing .five-o-meter header h2 {
+        font: normal 52px/58px "Radley",Georgia,"Times New Roman",Times,serif;
+        color: #08153c;
+        margin-bottom: 8px;
+    }
+
+    .landing .five-o-meter header h2 .five-oh {
+        background: url("../img/the-five/logo-five-oh.png") no-repeat;
+        width: 69px;
+        height: 60px;
+    }
+
+    .landing .five-o-meter p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .landing .five-o-meter .topics li {
+        max-width: 200px;
+        width: auto;
+        margin-right: 16px;
+        min-height: 230px;
+    }
+
+    .landing .five-o-meter .topics li:nth-of-type(4) {
+        clear: left;
+    }
+
+    .landing .five-o-meter .topics li .media {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .landing .five-o-meter .topics li .title {
+        font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .landing .clip-blog {
+        padding: 60px 0 30px 0;
+    }
+
+    .landing .clip-blog:after {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-clips.png") no-repeat;
+        width: 400px;
+        height: 806px;
+        right: 4%;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .landing .clip-blog .g-41 {
+        margin: 0 auto;
+        padding: 0 12px;
+        max-width: 760px;
+    }
+
+    .landing .clip-blog h2 {
+        margin-bottom: 38px;
+    }
+
+    .landing .clip-blog .button {
+        float: right;
+        clear: none;
+        margin-bottom: 0;
+    }
+
+    .landing .clip-blog .the-clips .section-content .g-13 {
+        margin: 0 12px;
+        max-width: 224px;
+    }
+
+    .landing .clip-blog .parallelogram.g-13 {
+        max-width: 50%;
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    .landing .clip-blog .parallelogram.g-13 .header {
+        width: 100%;
+        margin: 0;
+    }
+
+    .landing .clip-blog .parallelogram.g-last {
+        max-width: 99%;
+        width: 100%;
+    }
+
+    .landing .clip-blog .parallelogram.g-last .header {
+        width: 100%;
+        margin: 0;
+    }
+
+    .landing .clip-blog .parallelogram .header,.landing .clip-blog .parallelogram .content {
+        height: auto;
+    }
+
+    .landing .clip-blog .parallelogram .header .image,.landing .clip-blog .parallelogram .content .image {
+        margin-left: 13px;
+    }
+
+    .landing .clip-blog .parallelogram .header .image img,.landing .clip-blog .parallelogram .content .image img {
+        max-width: none;
+    }
+
+    .landing .hosts {
+        padding: 55px 0 0 0;
+    }
+
+    .landing .hosts .g-41 {
+        margin: 0 auto;
+        max-width: 760px;
+    }
+
+    .landing .hosts article {
+        margin-bottom: 0;
+    }
+
+    .landing .hosts .g-28 {
+        clear: both;
+        font: 300 18px/27px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #333;
+        margin-bottom: 18px;
+    }
+
+    .landing .hosts .button {
+        float: right;
+        clear: none;
+        margin-bottom: 0;
+    }
+
+    .landing .hosts li {
+        border-right: 3px solid #db2c2c;
+        margin: 0;
+        width: 105px;
+    }
+
+    .landing .hosts li:first-child {
+        border-left: 3px solid #db2c2c;
+    }
+
+    .landing .hosts li:nth-child(2) .name {
+        padding: 12px 5px;
+    }
+
+    .landing .hosts li .image {
+        background: #dfe5ea;
+        margin: 0;
+        width: 130px;
+        height: 470px;
+        overflow: hidden;
+    }
+
+    .landing .hosts li img {
+        margin: 0 0 0 -85px;
+        max-width: none;
+    }
+
+    .landing .hosts li .overlay {
+        display: none;
+        background: #8398c7;
+        position: absolute;
+        bottom: 0;
+        left: -12px;
+        padding: 18px 20px 18px 18px;
+        font: normal 24px/24px "Radley",Georgia,"Times New Roman",Times,serif;
+        width: 150px;
+    }
+
+    .landing .hosts li .overlay {
+        *zoom: 1;
+    }
+
+    .landing .hosts li .overlay:before,.landing .hosts li .overlay:after {
+        content: "";
+        display: table;
+    }
+
+    .landing .hosts li .overlay:after {
+        clear: both;
+    }
+
+    .landing .hosts li .overlay a {
+        display: block;
+    }
+
+    .landing .hosts li .overlay .social {
+        margin: 5px 0 0 0;
+    }
+
+    .landing .hosts li .overlay .social ul:before {
+        background: 0;
+    }
+
+    .landing .hosts li .overlay .social li {
+        float: left;
+        border: 0;
+        background: url("../img/the-five/sprite-social-small.png") no-repeat;
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+        text-indent: -9999em;
+    }
+
+    .landing .hosts li .overlay .social li.fb {
+        background-position: 0 -25px;
+    }
+
+    .landing .hosts li .overlay .social li.fb:hover {
+        background-position: -25px -25px;
+    }
+
+    .landing .hosts li .overlay .social li.tw {
+        background-position: 0 0;
+    }
+
+    .landing .hosts li .overlay .social li.tw:hover {
+        background-position: -25px 0;
+    }
+
+    .landing .hosts li .overlay .social li.ig {
+        background-position: 0 -50px;
+    }
+
+    .landing .hosts li .overlay .social li.ig:hover {
+        background-position: -25px -50px;
+    }
+
+    .landing .hosts li:hover .image img {
+        top: -15px;
+    }
+
+    .landing .hosts li:hover .overlay {
+        display: block;
+    }
+
+    .landing .hosts li:hover .overlay a {
+        color: white;
+    }
+
+    .landing .hosts li:hover .overlay a:hover {
+        color: #274ca4;
+    }
+
+    .the-conversation .advert {
+        margin: auto;
+        width: auto;
+    }
+
+    .the-conversation .advert.mobile-top {
+        display: none;
+    }
+
+    .the-conversation .advert.mobile-top .ad-container {
+        display: none;
+    }
+
+    .the-conversation .advert.mobile-bottom {
+        display: none;
+    }
+
+    .the-conversation .advert.mobile-bottom .ad-container {
+        display: none;
+    }
+
+    .the-conversation .advert.non-mobile-top {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .the-conversation .advert.non-mobile-top .ad-container {
+        display: block;
+    }
+
+    .the-conversation .five-o-meter {
+        -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+        -moz-box-shadow: 0 0 0 rgba(0,0,0,0);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+        margin: -10px auto 0 auto;
+        width: 720px;
+        float: none;
+    }
+
+    .the-conversation .five-o-meter section {
+        float: left;
+        width: 408px;
+    }
+
+    .the-conversation .five-o-meter header h2 {
+        font: normal 49px/58px "Radley",Georgia,"Times New Roman",Times,serif;
+        color: #08153c;
+        margin: 28px 4% 14px 4%;
+    }
+
+    .the-conversation .five-o-meter header h2 .five-oh {
+        width: 69px;
+        height: 65px;
+        background-position: 0 -2px;
+        margin-top: -5px;
+    }
+
+    .the-conversation .five-o-meter p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .the-conversation .five-o-meter aside {
+        float: right;
+        clear: none;
+    }
+
+    .the-conversation .meter-select {
+        float: none;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1) inset;
+        -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1) inset;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1) inset;
+    }
+
+    .the-conversation .meter-select .g-41 {
+        *zoom: 1;
+    }
+
+    .the-conversation .meter-select .g-41:before,.the-conversation .meter-select .g-41:after {
+        content: "";
+        display: table;
+    }
+
+    .the-conversation .meter-select .g-41:after {
+        clear: both;
+    }
+
+    .the-conversation .meter-select ul {
+        width: 516px;
+        margin: 0 auto;
+    }
+
+    .the-conversation .meter-select ul {
+        *zoom: 1;
+    }
+
+    .the-conversation .meter-select ul:before,.the-conversation .meter-select ul:after {
+        content: "";
+        display: table;
+    }
+
+    .the-conversation .meter-select ul:after {
+        clear: both;
+    }
+
+    .the-conversation .meter-select li {
+        padding: 25px 0;
+        margin: 0 12px 0 0;
+        width: 154px;
+        min-height: 250px;
+    }
+
+    .the-conversation .meter-select li:nth-child(4n) {
+        clear: both;
+    }
+
+    .the-conversation .meter-select li.active:nth-child(1):before,.the-conversation .meter-select li.active:nth-child(2):before,.the-conversation .meter-select li.active:nth-child(3):before,.the-conversation .meter-select li.recent:nth-child(1):before,.the-conversation .meter-select li.recent:nth-child(2):before,.the-conversation .meter-select li.recent:nth-child(3):before {
+        content: "";
+        width: 96px;
+        height: 21px;
+        position: absolute;
+        left: 30px;
+        position: absolute;
+        top: -47px;
+    }
+
+    .the-conversation .meter-select li.recent:nth-child(4):after,.the-conversation .meter-select li.recent:nth-child(5):after,.the-conversation .meter-select li.recent:nth-child(6):after,.the-conversation .meter-select li.active:nth-child(4):after,.the-conversation .meter-select li.active:nth-child(5):after,.the-conversation .meter-select li.active:nth-child(6):after {
+        content: "";
+        width: 96px;
+        height: 21px;
+        position: absolute;
+        bottom: -6px;
+        left: 30px;
+    }
+
+    .the-conversation .meter-select li.recent:nth-child(1):before,.the-conversation .meter-select li.recent:nth-child(2):before,.the-conversation .meter-select li.recent:nth-child(3):before {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -43px;
+    }
+
+    .the-conversation .meter-select li.recent:nth-child(4):after,.the-conversation .meter-select li.recent:nth-child(5):after,.the-conversation .meter-select li.recent:nth-child(6):after {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -21px;
+    }
+
+    .the-conversation .meter-select li.active:nth-child(1):before,.the-conversation .meter-select li.active:nth-child(2):before,.the-conversation .meter-select li.active:nth-child(3):before {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -64px;
+    }
+
+    .the-conversation .meter-select li.active:nth-child(4):after,.the-conversation .meter-select li.active:nth-child(5):after,.the-conversation .meter-select li.active:nth-child(6):after {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 0;
+    }
+
+    .the-conversation .meter-select li .gauge {
+        width: 156px;
+        height: 77px;
+    }
+
+    .the-conversation .meter-select li .gauge img {
+        width: 156px;
+    }
+
+    .the-conversation .meter-select li .hashtag {
+        font-size: 16px;
+    }
+
+    .the-conversation .meter-select li p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .the-conversation aside {
+        clear: both;
+    }
+
+    .the-conversation .blog-comments {
+        -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        clear: both;
+        padding: 26px 4%;
+    }
+
+    .the-conversation .main-content {
+        display: block;
+        padding: 20px 0 12px 0;
+    }
+
+    .the-conversation .main-content {
+        *zoom: 1;
+    }
+
+    .the-conversation .main-content:before,.the-conversation .main-content:after {
+        content: "";
+        display: table;
+    }
+
+    .the-conversation .main-content:after {
+        clear: both;
+    }
+
+    .the-conversation .main-content section.g-28 {
+        float: none;
+        max-width: 660px;
+        margin: 0 auto;
+    }
+
+    .the-conversation .main-content section h2 {
+        color: #08153c;
+        font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+        margin: 0 0 6px 0;
+    }
+
+    .the-conversation .main-content section .blog-comments {
+        -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+        -moz-box-shadow: 0 0 0 rgba(0,0,0,0);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+        padding: 0;
+        width: 660px;
+    }
+
+    .the-conversation .main-content section .blog-comments header {
+        float: none;
+        width: auto;
+    }
+
+    .the-conversation .main-content section .blog-comments article {
+        margin-bottom: 25px;
+    }
+
+    .the-conversation .main-content section .blog-comments .fyre-comment-user {
+       /* border: 1px dotted #000;*/
+    }
+
+    .the-conversation .main-content section .blog-comments .fyre a.fyre-comment-username {
+        color: black;
+    }
+
+    .the-conversation .main-content section .blog-comments .fyre .fyre-comment-divider>div.fyre-comment-divider {
+        background: 0;
+        border-top: 1px dotted #a7acaf;
+    }
+
+    .the-conversation .main-content aside {
+        display: none;
+    }
+
+    .the-conversation .main-content aside .ad-container {
+        display: none;
+    }
+
+    .article-single section.g-28 {
+        float: none;
+        width: 660px;
+        max-width: 660px;
+        margin: 0 auto;
+    }
+
+    .article-single article {
+        padding: 0;
+    }
+
+    .article-single article header .social .print {
+        display: block;
+    }
+
+    .article-single article .content .media img {
+        border: 10px solid #dfe5ea;
+    }
+
+    .article-single article .content blockquote {
+        float: right;
+        border: 0;
+        padding: 0;
+        margin: 0 0 0 20px;
+        width: 200px;
+        position: relative;
+    }
+
+    .article-single article .content blockquote p {
+        text-indent: 36px;
+        font: 400 16px/24px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #08153c;
+    }
+
+    .article-single article .content blockquote .credit {
+        clear: both;
+        display: block;
+        color: #838a9d;
+        font: 300 14px/24px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style: italic;
+        text-align: right;
+        padding-right: 50px;
+    }
+
+    .article-single article .content blockquote:before {
+        background: url("../img/the-five/sprite-article-icons.png") no-repeat -15px -48px;
+        width: 28px;
+        height: 22px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 1px;
+    }
+
+    .article-single article .content blockquote:after {
+        background: url("../img/the-five/sprite-article-icons.png") no-repeat 0 -73px;
+        width: 42px;
+        height: 33px;
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+    }
+
+    .blog-landing .main-content {
+        clear: both;
+    }
+
+    .blog-landing .main-content aside.g-13 {
+        position: relative;
+        padding: 0;
+        max-width: 648px;
+        margin: 0 auto;
+        border-top: 10px solid #f6f6f6;
+        padding-top: 20px;
+        float: none;
+    }
+
+    .blog-landing .main-content aside.g-13 .module.ad,.blog-landing .main-content aside.g-13 .module.twitter,.blog-landing .main-content aside.g-13 .module.browse-category {
+        width: 48%;
+        margin: 0 1% 30px 1%;
+    }
+
+    .blog-landing section.g-28 {
+        max-width: 636px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .blog-landing article {
+        padding: 0 24px 0 12px;
+    }
+
+    .blog-landing article header .meta {
+        padding-left: 36px;
+    }
+
+    .blog-landing article header .meta h2 {
+        text-indent: 0;
+    }
+
+    .blog-landing article.blog-quote .meta,.blog-landing article.blog-tweet .meta {
+        text-indent: 0;
+    }
+
+    .blog-landing article .content .media .overlay {
+        top: 110px;
+        left: 238px;
+    }
+
+    .blog-landing article .content .count {
+        margin-right: 13px;
+    }
+
+    .blog-landing article footer .tags.g-22 {
+        max-width: 388px;
+    }
+
+    .blog-landing article footer .comment-count {
+        margin-right: 13px;
+    }
+
+    .blog-landing .post-region .wrap {
+        overflow: hidden;
+    }
+
+    .blog-landing .post-region .pagination {
+        max-width: 650px;
+    }
+
+    .blog-landing .post-region .pagination:after {
+        content: "";
+        width: 1200px;
+        height: 65px;
+        left: -40%;
+        bottom: 0;
+        position: absolute;
+        background: url("../img/the-five/divider-bottom-alt.png") no-repeat top center;
+    }
+
+    .blog-single.article-single section.g-28 {
+        margin: auto;
+    }
+
+    .blog-single .g-28 {
+        margin: 0 auto 20px auto;
+        padding-bottom: 12px;
+    }
+
+    .blog-single .tags li {
+        margin-bottom: 12px;
+    }
+
+    .blog-single footer {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .blog-single footer .tag-comment .comment-count.g-5 {
+        margin-right: 24px;
+    }
+
+    .blog-single .recommend-more {
+        margin-bottom: 30px;
+    }
+
+    .transcript-landing .filter-search {
+        padding: 0 20px 32px 20px;
+    }
+
+    .transcript-landing .filter-search .search-wrap #keyword {
+        width: 220px;
+    }
+
+    .transcript-landing .filter-search .search-wrap.keyword {
+        margin-bottom: 0;
+    }
+
+    .transcript-landing .g-28 {
+        float: none;
+        margin: 0 auto;
+        max-width: 648px;
+    }
+
+    .transcript-landing .g-28 .search-query {
+        padding: 0;
+    }
+
+    .transcript-landing article {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .hosts-landing .g-28 {
+        float: none;
+        margin: 40px auto 0 auto;
+        max-width: 660px;
+    }
+
+    .hosts-landing aside.g-13 {
+        margin-top: 0;
+    }
+
+    .hosts-single .g-28 {
+        margin-right: 12px;
+    }
+
+    .hosts-single .pagination {
+        margin-right: 10px;
+    }
+
+    .hosts-single article {
+        padding: 0;
+    }
+
+    .hosts-single article.host-main .pagination {
+        float: right;
+    }
+
+    .hosts-single article.host-main .media {
+        margin: 0 24px 0 12px;
+        width: 348px;
+    }
+
+    .hosts-single article.host-main .media .image {
+        -moz-transform: skew(-13deg,0deg);
+        -webkit-transform: skew(-13deg,0deg);
+        -o-transform: skew(-13deg,0deg);
+        -ms-transform: skew(-13deg,0deg);
+        transform: skew(-13deg,0deg);
+        background: #dfe5ea;
+        margin: 0 0 20px 55px;
+        width: 250px;
+        height: 425px;
+        overflow: hidden;
+    }
+
+    .hosts-single article.host-main .media img {
+        margin: 0 0 12px -50px;
+        max-width: none;
+        -moz-transform: skew(13deg,0deg);
+        -webkit-transform: skew(13deg,0deg);
+        -o-transform: skew(13deg,0deg);
+        -ms-transform: skew(13deg,0deg);
+        transform: skew(13deg,0deg);
+    }
+
+    .hosts-single article.host-main .content {
+        width: 370px;
+    }
+
+    .hosts-single article.host-main .content header {
+        margin: 0;
+    }
+
+    .hosts-single .clip-blog article header h2 {
+        margin-left: 12px;
+    }
+
+    .hosts-single .clip-blog article header .button {
+        clear: none;
+        float: right;
+        margin-bottom: 0;
+        margin-right: 12px;
+    }
+
+    .hosts-single .clip-blog article .section-content .g-13 {
+        max-width: 232px;
+    }
+
+    .hosts-single .g-28 {
+        max-width: 600px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .video-landing .vid-block.g-34 {
+        max-width: 768px;
+    }
+
+    .video-landing #video .video {
+        width: 100%!important;
+        height: 463px!important;
+    }
+
+    .video-landing .vid-block .section-content li.g-8 {
+        max-width: 168px;
+    }
+
+    .video-landing .vid-block .section-content li:nth-child(2n+1) {
+        clear: none;
+    }
+
+    .video-landing .vid-block .section-content li:nth-child(4n+1) {
+        clear: left;
+    }
+}
+
+@media all and (min-width:1024px) {
+    #block-foxnews-general-6 {
+        display: block;
+    }
+
+    #block-foxnews-general-12 {
+        display: none;
+    }
+
+    .page #util>div {
+        float: none;
+        max-width: 1024px;
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    #util>div>ul {
+        width: 1024px;
+    }
+
+    body.the-conversation {
+        background: #dfe5ea url("../img/the-five/bg-five-pattern.png") repeat-y center -50px;
+    }
+
+    body.article-single,body.blog-landing,body.transcript-landing,body.hosts-landing,body.hosts-single,body.conversation-landing {
+        background: white url("../img/the-five/bg-five-pattern.png") repeat-y center -300px;
+    }
+
+    body.video-landing {
+        background: #08153c url("../img/the-five/bg-five-pattern.png") repeat-y center -450px;
+    }
+
+    .page {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #block-foxnews-general-7 {
+        display: block;
+    }
+
+    #block-foxnews-general-11 {
+        display: none;
+    }
+
+    #block-fox_news_general-8,#block-fox_news_general-8 .search input[type="submit"] {
+        font: normal 12px/14px arial,Helvetica,sans-serif;
+    }
+
+    .global-nav .nav-drop {
+        display: block;
+        height: 0;
+        border-top: 0;
+    }
+
+    .global-nav .nav-drop>ul {
+        display: none;
+    }
+
+    .global-nav .big-sub {
+        display: block;
+    }
+
+    .global-nav .big-sub li {
+        display: block;
+        float: left;
+        margin: 4px 7px;
+    }
+
+    .global-nav .big-sub li a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 14px;
+        padding-right: 24px;
+        background: url("http://global.fncstatic.com/static/p/show-page/all/img/icons-global.png") no-repeat right 3px;
+    }
+
+    .global-nav .big-sub li a:hover {
+        color: white;
+        background-position: right -133px;
+    }
+
+    .global-nav .expand,.global-nav .small-sub {
+        display: none;
+    }
+
+    .global-nav .dropdown {
+        top: 0;
+    }
+
+    .global-nav #account {
+        margin-right: 0;
+    }
+
+    .global-nav .dropdown.show {
+        margin-left: 100px;
+    }
+
+    .global-nav .dropdown.watch {
+        margin-left: 140px;
+    }
+
+    .header {
+        background-position: 110% 100%;
+        margin: 0 auto;
+    }
+
+    .header nav {
+        margin-right: -1000px;
+        padding-right: 1000px;
+        margin-bottom: 20px;
+        float: right;
+    }
+
+    .header nav:before {
+        float: left;
+        content: "";
+        position: absolute;
+        left: -70px;
+        width: 1px;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border-top: 0 solid transparent;
+        border-bottom: 86px solid transparent;
+        border-right: 69px solid rgba(66,96,180,0.7);
+    }
+
+    .the-five {
+        height: 300px;
+        position: relative;
+    }
+
+    .the-five .gray-wash {
+        display: none;
+    }
+
+    .the-five .big-red {
+        position: absolute;
+        background: url("../img/the-five/divider-bottom.png") no-repeat -200px 240px;
+        height: 100%;
+        width: 100%;
+        margin-left: -375px;
+    }
+
+    .the-five.full {
+        max-width: 100%!important;
+    }
+
+    .the-five .wrap {
+        position: relative;
+        height: 300px;
+    }
+
+    .the-five .wrap {
+        *zoom: 1;
+    }
+
+    .the-five .wrap:before,.the-five .wrap:after {
+        content: "";
+        display: table;
+    }
+
+    .the-five .wrap:after {
+        clear: both;
+    }
+
+    .the-five .timeslot {
+        position: absolute;
+        left: 205px;
+        top: auto;
+        bottom: 72px;
+        padding: 0;
+        width: 160px;
+        font-size: 41px;
+        line-height: 39px;
+    }
+
+    .the-five .timeslot .time {
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .the-five .timeslot .time strong {
+        font-size: 71px;
+    }
+
+    .the-five .timeslot .time small {
+        font-size: 20px;
+    }
+
+    .the-five .people {
+        background: url("../img/the-five/sprite-people.png") 0 0;
+        height: 300px;
+        width: 557px;
+        right: 24px;
+        bottom: 0;
+    }
+
+    .the-five .logo {
+        background-position: 0 0;
+        height: 140px;
+        width: 175px;
+        bottom: 65px;
+    }
+
+    aside.g-13 {
+        clear: none;
+        float: left;
+        max-width: 300px;
+    }
+
+    aside.g-13 #block-multiblock-3 {
+        display: block;
+    }
+
+    aside.g-13 #block-multiblock-3 .ad-container {
+        display: block;
+    }
+
+    aside.g-13 #block-multiblock-9 {
+        display: block;
+    }
+
+    aside.g-13 #block-multiblock-9 .ad-container {
+        display: block;
+    }
+
+    aside.g-13 #block-multiblock-10 {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-10 .ad-container {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-11 {
+        display: none;
+    }
+
+    aside.g-13 #block-multiblock-11 .ad-container {
+        display: none;
+    }
+
+    aside.g-13 .module {
+        width: 100%;
+        float: none;
+    }
+
+    aside.g-13 .module.the-clips ul {
+        margin-bottom: 15px;
+    }
+
+    aside.g-13 .module.the-clips li {
+        float: none;
+        width: 100%;
+    }
+
+    aside.g-13 .module.the-clips li .summary {
+        clear: none;
+        width: 48%;
+    }
+
+    aside.g-13 .module.the-clips .button {
+        margin-bottom: 0;
+    }
+
+    .more-topic {
+        font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .more-topic a,.more-topic a:visited {
+        color: #274ca4;
+        text-decoration: none;
+    }
+
+    .more-topic a:hover,.more-topic a:active {
+        text-decoration: underline;
+    }
+
+    .more-topic li {
+        color: #919191;
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
+    .comment-count {
+        font: 300 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-align: right;
+    }
+
+    .comment-count a {
+        position: relative;
+    }
+
+    .comment-count a,.comment-count a:visited {
+        color: #db2c2c;
+        text-decoration: none;
+        padding-left: 25px;
+    }
+
+    .comment-count a:hover,.comment-count a:active,.comment-count a:visited:hover,.comment-count a:visited:active {
+        text-decoration: underline;
+    }
+
+    .comment-count a:before,.comment-count a:visited:before {
+        height: 21px;
+        width: 21px;
+        content: "";
+        left: 0;
+        position: absolute;
+        overflow: hidden;
+        background: url("../img/the-five/sprite-article-icons.png") no-repeat 0 -150px;
+    }
+
+    .tag-comment .tags {
+        width: 100%;
+    }
+
+    .tag-comment .tags.g-22 {
+        max-width: 490px;
+    }
+
+    .tag-comment .tags li {
+        float: left;
+        margin: 0 12px 12px 0;
+    }
+
+    .tag-comment .tags li a {
+        background: #838a9d url("../img/the-five/sprite-article-icons.png") no-repeat -28px 0;
+        padding: 2px 10px 4px 20px;
+        font: 200 12px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+
+    .tag-comment .tags li a:active,.tag-comment .tags li a:hover {
+        background: #08153c url("../img/the-five/sprite-article-icons.png") no-repeat -29px -227px;
+        text-decoration: none;
+    }
+
+    .tag-comment .tags li a:visited {
+        color: white;
+    }
+
+    .tag-comment .comment-count.g-5 {
+        float: right;
+        width: 130px;
+        max-width: 130px;
+    }
+
+    .recommend-more .g-13 {
+        margin: 0 36px 0 0;
+    }
+
+    .recommend-more .g-last {
+        margin-right: 0;
+    }
+
+    .blog-landing header,.blog-single header,.transcript-landing header,.hosts-landing header,.conversation-landing header {
+        height: auto;
+    }
+
+    .blog-landing header .big-red,.blog-single header .big-red,.transcript-landing header .big-red,.hosts-landing header .big-red,.conversation-landing header .big-red {
+        background: url("../img/the-five/bg-header-blog.png") no-repeat -100px 0;
+        margin-left: -555px;
+    }
+
+    .blog-landing header .gray-wash,.blog-single header .gray-wash,.transcript-landing header .gray-wash,.hosts-landing header .gray-wash,.conversation-landing header .gray-wash {
+        background: #dfe5ea;
+        height: 314px;
+        margin: 0 0 33px 0;
+        position: relative;
+        z-index: -1;
+    }
+
+    .blog-landing header .gray-wash h1,.blog-single header .gray-wash h1,.transcript-landing header .gray-wash h1,.hosts-landing header .gray-wash h1,.conversation-landing header .gray-wash h1 {
+        position: absolute;
+        color: #274ca4;
+        font: normal 52px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+        bottom: 32px;
+        right: auto;
+    }
+
+    .transcript-landing header .big-red,.hosts-landing header .big-red,.conversation-landing header .big-red {
+        background: url("../img/the-five/divider-top.png") no-repeat 0 -25px;
+        margin-left: -555px;
+        padding-right: 500px;
+    }
+
+    .transcript-landing header .gray-wash,.hosts-landing header .gray-wash,.conversation-landing header .gray-wash {
+        margin-bottom: 5px;
+        height: 216px;
+    }
+
+    .transcript-landing header .gray-wash h1,.hosts-landing header .gray-wash h1,.conversation-landing header .gray-wash h1 {
+        left: auto;
+    }
+
+    .article-single .the-five .gray-wash,.hosts-landing .the-five .gray-wash,.hosts-single .the-five .gray-wash,.transcript-landing .the-five .gray-wash,.video-landing .the-five .gray-wash,.conversation-landing .the-five .gray-wash {
+        display: block;
+        background: #dfe5ea;
+        height: 225px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .landing .global-nav {
+        position: fixed;
+        top: 0!important;
+    }
+
+    .landing .header {
+        height: 600px;
+    }
+
+    .landing .header nav {
+        position: fixed;
+        margin-left: 246px;
+        width: 100%;
+        margin-bottom: 0;
+        top: 28px;
+    }
+
+    .landing .header nav.nonstick {
+        position: relative;
+    }
+
+    .landing .stage {
+        background: #08153c;
+        max-width: 100%;
+        height: 869px;
+        margin: 0 auto;
+        position: relative;
+        z-index: -10;
+    }
+
+    .landing .stage .studio-stage {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .landing .stage .studio {
+        background: url("../img/the-five/main-full-sprite.png") no-repeat;
+        display: block;
+        max-width: 100%;
+    }
+
+    .landing .stage .studio.the-five-group {
+        background: url("../img/the-five/bg-header-five-1280.png") no-repeat center center;
+        width: 100%;
+        height: 869px;
+        position: fixed;
+        z-index: -10;
+    }
+
+    .landing .stage .studio.lt-1 {
+        width: 1500px;
+        height: 450px;
+        z-index: -8;
+        position: absolute;
+        top: -200px;
+        left: 110px;
+    }
+
+    .landing .mask {
+        background: url("../img/the-five/bg-mask.png") center center no-repeat;
+        height: 325px;
+        z-index: 0;
+        width: 100%;
+        margin: -100px auto 0 auto;
+        z-index: 0;
+    }
+
+    .landing .five-o-meter:after {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-fiveometer-right.png") no-repeat;
+        width: 598px;
+        height: 539px;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .landing .five-o-meter .g-28 {
+        clear: none;
+        float: left;
+        margin: 0 24px 0 12px;
+    }
+
+    .landing .five-o-meter .g-13 {
+        clear: none;
+        float: left;
+        margin-top: -85px;
+    }
+
+    .landing .five-o-meter .topics li {
+        margin-right: 12px;
+    }
+
+    .landing .clip-blog:after {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-clips.png") no-repeat;
+        width: 400px;
+        height: 806px;
+        right: 4%;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .landing .clip-blog .g-41 {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 996px;
+    }
+
+    .landing .clip-blog h2 a,.landing .clip-blog h2 a:visited,.landing .clip-blog h2 a:hover,.landing .clip-blog h2 a:active {
+        color: #274ca4;
+        text-decoration: none;
+        text-shadow: 0 1px 0 black;
+    }
+
+    .landing .clip-blog .the-clips .section-content .g-13 {
+        max-width: 300px;
+    }
+
+    .landing .clip-blog .row-1,.landing .clip-blog .row-2,.landing .clip-blog .row-3 {
+        *zoom: 1;
+    }
+
+    .landing .clip-blog .row-1:before,.landing .clip-blog .row-1:after,.landing .clip-blog .row-2:before,.landing .clip-blog .row-2:after,.landing .clip-blog .row-3:before,.landing .clip-blog .row-3:after {
+        content: "";
+        display: table;
+    }
+
+    .landing .clip-blog .row-1:after,.landing .clip-blog .row-2:after,.landing .clip-blog .row-3:after {
+        clear: both;
+    }
+
+    .landing .clip-blog .row-1 {
+        margin-left: 16px;
+    }
+
+    .landing .clip-blog .row-2 {
+        margin-left: 73px;
+    }
+
+    .landing .clip-blog .row-3 {
+        margin-left: 130px;
+    }
+
+    .landing .clip-blog .the-blog .section-content {
+        width: 1100px;
+        margin-left: -65px;
+    }
+
+    .landing .clip-blog .parallelogram {
+        -moz-transform: skew(16deg,0deg);
+        -webkit-transform: skew(16deg,0deg);
+        -o-transform: skew(16deg,0deg);
+        -ms-transform: skew(16deg,0deg);
+        transform: skew(16deg,0deg);
+    }
+
+    .landing .clip-blog .parallelogram.g-13 {
+        max-width: 340px;
+        width: 300px;
+        margin: 0 0 23px 12px;
+    }
+
+    .landing .clip-blog .parallelogram.g-13 .header {
+        width: 310px;
+        margin: 0 0 0 -5px;
+    }
+
+    .landing .clip-blog .parallelogram.g-last {
+        max-width: 300px;
+        width: 300px;
+    }
+
+    .landing .clip-blog .parallelogram.g-last .header {
+        width: 310px;
+        margin: 0 0 0 -5px;
+    }
+
+    .landing .clip-blog .parallelogram .header,.landing .clip-blog .parallelogram .content {
+        -moz-transform: skew(-16deg,0deg);
+        -webkit-transform: skew(-16deg,0deg);
+        -o-transform: skew(-16deg,0deg);
+        -ms-transform: skew(-16deg,0deg);
+        transform: skew(-16deg,0deg);
+        height: auto;
+    }
+
+    .landing .clip-blog .parallelogram .header .image,.landing .clip-blog .parallelogram .content .image {
+        margin-left: -20px;
+    }
+
+    .landing .clip-blog .parallelogram .header .image img,.landing .clip-blog .parallelogram .content .image img {
+        max-width: none;
+    }
+
+    .landing .hosts .g-41 {
+        max-width: 996px;
+    }
+
+    .landing .hosts ul:before {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-hosts.png") no-repeat;
+        width: 460px;
+        height: 683px;
+        left: -310px;
+        bottom: 0;
+        z-index: -2;
+    }
+
+    .landing .hosts li {
+        width: 130px;
+        -moz-transform: skew(-12deg,0deg);
+        -webkit-transform: skew(-12deg,0deg);
+        -o-transform: skew(-12deg,0deg);
+        -ms-transform: skew(-12deg,0deg);
+        transform: skew(-12deg,0deg);
+    }
+
+    .landing .hosts li:nth-child(2) .name {
+        padding: 12px 16px;
+    }
+
+    .landing .hosts li .image {
+        background: #dfe5ea;
+        margin: 0;
+        width: 130px;
+        height: 470px;
+        overflow: hidden;
+    }
+
+    .landing .hosts li img {
+        margin: 0 0 0 -65px;
+        max-width: none;
+        -moz-transform: skew(12deg,0deg);
+        -webkit-transform: skew(12deg,0deg);
+        -o-transform: skew(12deg,0deg);
+        -ms-transform: skew(12deg,0deg);
+        transform: skew(12deg,0deg);
+    }
+
+    .landing .hosts li .overlay {
+        padding-left: 30px;
+    }
+
+    .landing .hosts li .overlay a {
+        display: block;
+    }
+
+    .landing .hosts li .overlay .social li {
+        -moz-transform: skew(12deg,0deg);
+        -webkit-transform: skew(12deg,0deg);
+        -o-transform: skew(12deg,0deg);
+        -ms-transform: skew(12deg,0deg);
+        transform: skew(12deg,0deg);
+    }
+
+    .landing .hosts li .name,.landing .hosts li .overlay span a {
+        -moz-transform: skew(12deg,0deg);
+        -webkit-transform: skew(12deg,0deg);
+        -o-transform: skew(12deg,0deg);
+        -ms-transform: skew(12deg,0deg);
+        transform: skew(12deg,0deg);
+    }
+
+    .the-conversation .advert {
+        margin: 0 0 25px 0;
+        width: auto;
+    }
+
+    .the-conversation .advert.mobile-top {
+        display: none;
+    }
+
+    .the-conversation .advert.mobile-top .ad-container {
+        display: none;
+    }
+
+    .the-conversation .advert.mobile-bottom {
+        display: none;
+    }
+
+    .the-conversation .advert.mobile-bottom .ad-container {
+        display: none;
+    }
+
+    .the-conversation .advert.non-mobile-top {
+        display: none;
+    }
+
+    .the-conversation .advert.non-mobile-top .ad-container {
+        display: none;
+    }
+
+    .the-conversation .five-o-meter {
+        width: 996px;
+        margin-top: 25px;
+    }
+
+    .the-conversation .five-o-meter header h2,.the-conversation .five-o-meter header p {
+        margin: 0;
+        max-width: 700px;
+    }
+
+    .the-conversation .five-o-meter header p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    .the-conversation .five-o-meter .g-41 {
+        width: 700px;
+        max-width: 700px;
+        margin-left: 12px;
+    }
+
+    .the-conversation .five-o-meter .g-41 .g-28 {
+        width: 700px;
+        max-width: 700px;
+    }
+
+    .the-conversation .meter-select {
+        padding: 0;
+    }
+
+    .the-conversation .meter-select ul {
+        width: 996px;
+    }
+
+    .the-conversation .meter-select li {
+        padding: 25px 0;
+        margin: 0 12px 0 0;
+        width: 154px;
+        min-height: 250px;
+    }
+
+    .the-conversation .meter-select li:last-child {
+        margin-right: 0;
+    }
+
+    .the-conversation .meter-select li:nth-child(4n) {
+        clear: none;
+    }
+
+    .the-conversation .meter-select li.active:nth-child(1):before,.the-conversation .meter-select li.active:nth-child(2):before,.the-conversation .meter-select li.active:nth-child(3):before,.the-conversation .meter-select li.recent:nth-child(1):before,.the-conversation .meter-select li.recent:nth-child(2):before,.the-conversation .meter-select li.recent:nth-child(3):before {
+        top: -2px;
+    }
+
+    .the-conversation .meter-select li.active:nth-child(4):after,.the-conversation .meter-select li.active:nth-child(5):after,.the-conversation .meter-select li.active:nth-child(6):after,.the-conversation .meter-select li.recent:nth-child(4):after,.the-conversation .meter-select li.recent:nth-child(5):after,.the-conversation .meter-select li.recent:nth-child(6):after {
+        bottom: 0;
+    }
+
+    .the-conversation .meter-select li.active:before,.the-conversation .meter-select li.recent:before {
+        content: "";
+        width: 96px;
+        height: 21px;
+        position: absolute;
+        top: -2px;
+        left: 30px;
+    }
+
+    .the-conversation .meter-select li.active:after,.the-conversation .meter-select li.recent:after {
+        content: "";
+        width: 96px;
+        height: 21px;
+        position: absolute;
+        bottom: -1px;
+        left: 30px;
+    }
+
+    .the-conversation .meter-select li.recent:before {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -43px;
+    }
+
+    .the-conversation .meter-select li.recent:after {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -21px;
+    }
+
+    .the-conversation .meter-select li.active:after {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -1px;
+    }
+
+    .the-conversation .meter-select li.active:before {
+        background: url("../img/the-five/sprite-meter-arrows.png") no-repeat 0 -64px;
+    }
+
+    .the-conversation .meter-select li .gauge {
+        width: 156px;
+        height: 77px;
+    }
+
+    .the-conversation .meter-select li p {
+        margin-bottom: 0;
+    }
+
+    .the-conversation .main-content {
+        display: block;
+        padding-top: 35px;
+    }
+
+    .the-conversation .main-content {
+        *zoom: 1;
+    }
+
+    .the-conversation .main-content:before,.the-conversation .main-content:after {
+        content: "";
+        display: table;
+    }
+
+    .the-conversation .main-content:after {
+        clear: both;
+    }
+
+    .the-conversation .main-content section.g-28 {
+        float: left;
+        max-width: 648px;
+        margin-right: 24px;
+        margin-left: 12px;
+    }
+
+    .the-conversation .main-content section h2 {
+        color: #08153c;
+        font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+        margin-bottom: 6px;
+    }
+
+    .the-conversation .main-content section .blog-comments {
+        -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+        -moz-box-shadow: 0 0 0 rgba(0,0,0,0);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+        padding: 0;
+        width: 648px;
+    }
+
+    .the-conversation .main-content aside {
+        display: block;
+        clear: none;
+        padding-top: 42px;
+    }
+
+    .the-conversation .main-content aside .ad-container {
+        display: block;
+    }
+
+    .article-single section.g-28 {
+        float: left;
+        max-width: 636px;
+        margin: 0 36px 0 12px;
+    }
+
+    .article-single article {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .article-single article header {
+        float: none;
+        margin: 0 0 10px;
+    }
+
+    .article-single article header h2 {
+        font: normal 36px/39px "Radley",Georgia,"Times New Roman",Times,serif;
+        margin-bottom: 10px;
+    }
+
+    .article-single article header .meta {
+        font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        clear: left;
+    }
+
+    .article-single article header .meta a,.article-single article header .meta a:visited {
+        color: #274ca4;
+        text-decoration: none;
+    }
+
+    .article-single article header .meta a:hover,.article-single article header .meta a:active {
+        text-decoration: underline;
+    }
+
+    .article-single article .content .media {
+        margin-bottom: 15px;
+    }
+
+    .article-single article .content .media img {
+        margin-bottom: 15px;
+    }
+
+    .article-single article .content .media .caption {
+        color: #333;
+        font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .article-single article .content strong,.article-single article .content b {
+        font-weight: 700;
+    }
+
+    .article-single article .content p {
+        color: #333;
+        font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-bottom: 21px;
+    }
+
+    .article-single article .content a,.article-single article .content a:visited {
+        color: #274ca4;
+        text-decoration: underline;
+    }
+
+    .article-single article .content a:hover,.article-single article .content a:active {
+        text-decoration: none;
+    }
+
+    .article-single aside.g-13 {
+        padding: 0;
+    }
+
+    .blog-landing .main-content {
+        clear: both;
+    }
+
+    .blog-landing .main-content aside.g-13 {
+        position: relative;
+        margin-top: -200px;
+        padding: 0;
+    }
+
+    .blog-landing .main-content aside.g-13 {
+        max-width: 300px;
+        margin: auto;
+        border-top: 0;
+        padding-top: 0;
+        float: left;
+    }
+
+    .blog-landing .main-content aside.g-13 .module {
+        float: none;
+        width: auto;
+        margin: 0 0 30px 0;
+    }
+
+    .blog-landing .main-content aside.g-13 .module.ad,.blog-landing .main-content aside.g-13 .module.twitter,.blog-landing .main-content aside.g-13 .module.browse-category {
+        width: auto;
+        margin: 0 0 30px 0;
+    }
+
+    .blog-landing section.g-28 {
+        margin: 0 24px;
+        float: left;
+        width: 636px;
+    }
+
+    .blog-landing .post-region .pagination {
+        max-width: 650px;
+    }
+
+    .blog-single.article-single section.g-28 {
+        margin: 0 24px;
+        float: left;
+    }
+
+    .blog-single .blog-post {
+        border-top: 10px solid #f6f6f6;
+        padding: 20px 24px 0 12px;
+    }
+
+    .blog-single footer {
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+    }
+
+    .blog-single footer {
+        *zoom: 1;
+    }
+
+    .blog-single footer:before,.blog-single footer:after {
+        content: "";
+        display: table;
+    }
+
+    .blog-single footer:after {
+        clear: both;
+    }
+
+    .blog-single footer .tag-comment .comment-count.g-5 {
+        margin-right: 13px;
+    }
+
+    .blog-single footer .social {
+        float: left;
+        width: 56px;
+        margin-right: 12px;
+        border: 0;
+    }
+
+    .blog-single footer .social li {
+        float: left;
+        margin-right: 4px;
+        text-indent: -9999em;
+        list-style-type: none;
+    }
+
+    .blog-single footer .social li a {
+        display: block;
+        background: url("../img/the-five/sprite-social-hosts.png") no-repeat 0 0;
+        height: 24px;
+        width: 24px;
+    }
+
+    .blog-single footer .social li a.tw {
+        background-position: -24px;
+    }
+
+    .blog-single footer .tag-comment {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    .blog-single footer .tags.g-22 {
+        max-width: 388px;
+    }
+
+    .transcript-landing .g-28 {
+        margin: 0 24px 0 12px;
+        max-width: 648px;
+        width: 648px;
+        float: left;
+    }
+
+    .transcript-landing .filter-search {
+        padding: 0 0 32px 0;
+    }
+
+    .transcript-landing .filter-search .search-wrap #keyword {
+        width: 300px;
+    }
+
+    .transcript-landing .filter-search .search-wrap.submit {
+        margin-right: 0;
+    }
+
+    .transcript-landing article {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .transcript-landing aside {
+        float: left;
+    }
+
+    .hosts-landing .g-28 {
+        float: left;
+        margin: 40px 36px 0 0;
+    }
+
+    .hosts-landing aside.g-13 {
+        margin-top: -55px;
+    }
+
+    .hosts-single article.host-main .pagination {
+        margin-right: 0;
+    }
+
+    .hosts-single article.host-main .content {
+        max-width: 612px;
+        width: auto;
+    }
+
+    .hosts-single article.host-main .content header {
+        margin: 20px 0 10px 0;
+    }
+
+    .hosts-single .clip-blog article header h2 {
+        margin-left: 0;
+    }
+
+    .hosts-single .clip-blog article header .button {
+        margin-right: 0;
+    }
+
+    .hosts-single .clip-blog article .section-content .g-13 {
+        max-width: 300px;
+    }
+
+    .hosts-single .g-28 {
+        max-width: 660px;
+        margin: 0 12px 0 0;
+        float: left;
+    }
+
+    .video-landing {
+        background: #08153c;
+    }
+
+    .video-landing:before {
+        content: "";
+        background: url("../img/the-five/bg-arrow-blue-left.png") no-repeat 0 -100px;
+        position: absolute;
+        left: 0;
+        height: 865px;
+        width: 375px;
+    }
+
+    .video-landing .video-backdrop {
+        background: url("../img/the-five/bg-video-landing.png") no-repeat top center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -10;
+    }
+
+    .video-landing section {
+        clear: both;
+        position: relative;
+    }
+
+    .video-landing .main-video {
+        width: 100%;
+    }
+
+    .video-landing .main-video:before {
+        content: "";
+        display: block;
+        background: url("../img/the-five/sprite-camera-masked.png") no-repeat 0 0;
+        width: 520px;
+        height: 640px;
+        position: absolute;
+        left: -500px;
+        bottom: -200px;
+    }
+
+    .video-landing .main-video:after {
+        content: "";
+        display: block;
+        background: url("../img/the-five/sprite-camera-masked.png") no-repeat -525px 0;
+        width: 550px;
+        height: 640px;
+        position: absolute;
+        right: -250px;
+        bottom: -350px;
+    }
+
+    .video-landing .main-video.g-40 {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .video-landing .main-video .player-wrap {
+        background: black;
+    }
+
+    .video-landing .main-video .player-wrap .player {
+        max-width: 906px;
+        margin: 0 auto;
+    }
+
+    .video-landing .main-video .content-wrap {
+        background: #274ca4;
+        margin-bottom: 50px;
+    }
+
+    .video-landing .main-video .content-wrap {
+        *zoom: 1;
+    }
+
+    .video-landing .main-video .content-wrap:before,.video-landing .main-video .content-wrap:after {
+        content: "";
+        display: table;
+    }
+
+    .video-landing .main-video .content-wrap:after {
+        clear: both;
+    }
+
+    .video-landing .main-video .content-wrap .content {
+        color: white;
+        padding: 24px 12px 24px 24px;
+        max-width: 568px;
+        float: left;
+        position: relative;
+    }
+
+    .video-landing .main-video .content-wrap .content h2 {
+        font: normal 24px/30px "Radley",Georgia,"Times New Roman",Times,serif;
+        margin-bottom: 10px;
+    }
+
+    .video-landing .main-video .content-wrap .content p {
+        font: 300 14px/21px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .video-landing .main-video .content-wrap .advert {
+        float: right;
+        padding-left: 12px;
+    }
+
+    .video-landing .main-video .content-wrap .advert .ad {
+        z-index: 100;
+        position: relative;
+    }
+
+    .video-landing .vid-block.g-34 {
+        float: none;
+        margin: 0 auto;
+        max-width: 816px;
+    }
+
+    .video-landing .vid-block header {
+        margin-bottom: 24px;
+    }
+
+    .video-landing .vid-block header h2 {
+        padding: 0 12px;
+        color: #274ca4;
+        font: normal 30px/36px "Radley",Georgia,"Times New Roman",Times,serif;
+    }
+
+    .video-landing .vid-block .section-content {
+        *zoom: 1;
+    }
+
+    .video-landing .vid-block .section-content:before,.video-landing .vid-block .section-content:after {
+        content: "";
+        display: table;
+    }
+
+    .video-landing .vid-block .section-content:after {
+        clear: both;
+    }
+
+    .video-landing .vid-block .section-content li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .video-landing .vid-block .section-content li.g-8 {
+        margin-left: 12px;
+    }
+
+    .video-landing .vid-block .section-content li.g-first {
+        margin-left: 0;
+    }
+
+    .video-landing .vid-block .section-content li .media {
+        margin-bottom: 12px;
+        position: relative;
+    }
+
+    .video-landing .vid-block .section-content li .media .overlay {
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+    }
+
+    .video-landing .vid-block .section-content li .media .overlay a {
+        display: block;
+        text-indent: -9999em;
+        background: url("../img/the-five/icon-overlay-video-sm.png") no-repeat 0 0;
+        width: 32px;
+        height: 32px;
+    }
+
+    .video-landing .vid-block .section-content li p {
+        color: #e8e8e8;
+        font: 300 12px/18px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .video-landing .vid-block .section-content li p a,.video-landing .vid-block .section-content li p a:visited {
+        color: #e8e8e8;
+        text-decoration: none;
+    }
+
+    .video-landing .vid-block .section-content li p a:active,.video-landing .vid-block .section-content li p a:hover {
+        text-decoration: underline;
+    }
+
+    .video-landing .vid-block footer {
+        border-top: 1px solid #183170;
+        padding-top: 20px;
+        max-width: 636px;
+        margin: 0 auto 15px auto;
+    }
+
+    .video-landing .vid-block footer .button {
+        float: none;
+        text-align: center;
+    }
+
+    .video-landing .vid-block footer .button.red a {
+        background-image: none;
+        padding-right: 15px;
+    }
+
+    .video-landing .vid-block .section-content li.g-8 {
+        max-width: 180px;
+    }
+}
+
+@media all and (min-width:1280px) {
+    .landing .header {
+        height: 650px;
+    }
+
+    .landing .header nav {
+        position: fixed;
+        width: 100%;
+    }
+
+    .landing .header nav.nonstick {
+        position: relative;
+    }
+
+    .landing .stage .studio {
+        background: url("../img/the-five/main-full-sprite.png") no-repeat;
+        display: block;
+    }
+
+    .landing .stage .studio.the-five-group {
+        background: url("../img/the-five/bg-header-five-1280.png") no-repeat center center;
+        width: 100%;
+        z-index: -10;
+    }
+
+    .landing .mask {
+        background: url("../img/the-five/bg-mask.png") center center no-repeat;
+        height: 325px;
+        z-index: 0;
+        width: 100%;
+        margin: -100px auto 0 auto;
+        z-index: 0;
+    }
+
+    .landing .stage .studio.cam-1 {
+        background-position: 0 -453px;
+        width: 570px;
+        height: 590px;
+        position: absolute;
+        left: 0;
+        bottom: -100px;
+    }
+
+    .landing .stage .studio.cam-2 {
+        background-position: -665px -453px;
+        width: 600px;
+        height: 590px;
+        position: absolute;
+        right: 0;
+        bottom: -100px;
+    }
+
+    .landing .clip-blog {
+        background: #08153c;
+    }
+}
+
+@media all and (min-width:1600px) {
+    .landing .clip-blog {
+        background: #08153c url("../img/the-five/bg-arrow-blue-left.png") no-repeat 0 -100px;
+    }
+
+    .landing .clip-blog:after {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-home-clips.png") no-repeat;
+        width: 400px;
+        height: 806px;
+        right: 4%;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .landing .clip-blog:before {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-image-left.png") no-repeat;
+        width: 485px;
+        height: 961px;
+        left: 0;
+        bottom: -25%;
+        z-index: -1;
+    }
+
+    .landing .hosts:after {
+        content: "";
+        position: absolute;
+        background: url("../img/the-five/bg-arrow-red-right.png") no-repeat;
+        width: 427px;
+        height: 1008px;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+body .janrain-share-providerpage {
+    height: 420px!important;
+}
+
+html.js body #janrain-share.janrain-share-landscape {
+    height: 435px!important;
+}
+
+body #janrain-share.janrain-share-landscape .janrain-share-providerpage-content {
+    height: 320px!important;
+}
+
+body #janrain-share.janrain-share-landscape #janrain-share-background {
+    height: 435px!important;
+}
+
+body #janrain-share.janrain-share-landscape .janrain-share-providerslist {
+    min-height: 364px!important;
+}
+
+body #janrain-share.janrain-share-landscape .janrain-share-login .janrain-share-login-button {
+    padding: 4px 10px 3px;
+}
+/*Fri Nov 15 17:05:17 EST 2013*/
